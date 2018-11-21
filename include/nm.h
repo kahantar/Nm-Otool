@@ -19,7 +19,7 @@ typedef struct s_print {
 void    ft_nm(void *ptr);
 char    *read_file(char *arg);
 void    handle_fat(void *ptr);
-void    handle_64(void *ptr);
+t_print	*handle_64(void *ptr);
 void    handle_32(void *ptr);
 
 #endif

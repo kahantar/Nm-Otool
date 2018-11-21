@@ -1,4958 +1,0 @@
-Script started on Wed Nov  7 09:53:37 2018
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd script[1m/[0m[0m [?1l>[?2004l
-]2;cd script]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hp
-zsh: do you wish to see all 207 possibilities (30 lines)? y[J[0mPAGER                        path                         pg_receivewal                pkgbuild                     popd                         preexec_functions            purge                      
-PATH                         pathchk                      pg_recvlogical               pkgutil                      post-grohtml                 priclass.d                   pushd                      
-POST_1_7_2_GIT               pathopens.d                  pg_resetwal                  pkill                        postalias                    pridist.d                    pushln                     
-PROMPT                       pax                          pg_restore                   pl                           postcat                      print                        pwd                        
-PROMPT2                      pbcopy                       pg_rewind                    pl2pm                        postconf                     printenv                     pwd_mkdb                   
-PROMPT3                      pbpaste                      pg_standby                   pl2pm5.18                    postdrop                     printf                       pwhich                     
-PROMPT4                      pcap-config                  pg_test_fsync                please                       postfix                      private                      pwhich5.18                 
-PS1                          pcsctest                     pg_test_timing               plockstat                    postgres                     procsystime                  pwpolicy                   
-PS2                          pdisk                        pg_upgrade                   plugin                       postkick                     productbuild                 pydoc                      
-PS3                          periodic                     pg_waldump                   pluginkit                    postlock                     productsign                  pydoc2.7                   
-PS4                          perl                         pgbench                      plugins                      postlog                      profiles                     pydoc3                     
-PSVAR                        perl5.18                     pgrep                        plutil                       postmap                      proj                         pydoc3.7                   
-PWD                          perlbug                      pgsql2shp                    pmset                        postmaster                   prompt                       pyenv_prompt_info          
-PasswordService              perlbug5.18                  phar                         pod2html                     postmulti                    prove                        python                     
-pack200                      perldoc                      phar.phar                    pod2html5.18                 postqueue                    prove5.18                    python-config              
-package-stash-conflicts      perldoc5.18                  php                          pod2latex                    postsuper                    ps                           python2.7                  
-package-stash-conflicts5.18  perlivp                      php-config                   pod2latex5.18                power_report.sh              psed                         python2.7-config           
-pagesize                     perlivp5.18                  php-fpm                      pod2man                      powermetrics                 psed5.18                     python3                    
-pagestuff                    perlthanks                   phpize                       pod2man5.18                  pp                           psql                         python3-config             
-par.pl                       perlthanks5.18               pic                          pod2readme                   pp5.18                       pstopdf                      python3.7                  
-par5.18.pl                   pfbtops                      pico                         pod2readme5.18               ppdc                         pstruct                      python3.7-config           
-parl                         pfctl                        piconv                       pod2text                     ppdhtml                      pstruct5.18                  python3.7m                 
-parl5.18                     pg_archivecleanup            piconv5.18                   pod2text5.18                 ppdi                         psvar                        python3.7m-config          
-parldyn                      pg_basebackup                pictd                        pod2usage                    ppdmerge                     ptar                         pythonw                    
-parldyn5.18                  pg_config                    pidpersec.d                  pod2usage5.18                ppdpo                        ptar5.18                     pythonw2.7                 
-parse_git_dirty              pg_controldata               ping                         podchecker                   pppd                         ptardiff                     pyvenv                     
-passwd                       pg_ctl                       ping6                        podchecker5.18               pr                           ptardiff5.18                 pyvenv-3.7                 
-paste                        pg_dump                      pip3                         podselect                    praudit                      ptargrep                                                
-patch                        pg_dumpall                   pip3.7                       podselect5.18                pre-grohtml                  ptargrep5.18                                            
-[Jpatchars                     [Jpg_isready                   [Jpipestatus                   [Jpolicytool                   [Jprecmd_functions             [Jpubsub                       [J                           [30A[0m[27m[24m[25Cp[Kpyton   hon sricpt.py[1m [0m[0m [?1l>[?2004l
-[J]2;python sricpt.py]1;pythoneh
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hppython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;python['cat', 'echo', 'launchctl', 'df', 'pwd', 'test', 'csh', 'wait4path', 'unlink', 'sleep', 'stty', 'date', 'ed', 'expr', 'pax', 'bash', 'kill', 'sh', 'domainname', 'ps', 'link', 'tcsh', 'dd', 'mkdir', 'ksh', 'hostname', 'rmdir', 'mv', 'ln', 'ls', 'cp', 'sync', 'zsh', 'chmod', 'rm', '[']
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[16Dcd script       [9Dpython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;python  File "sricpt.py", line 4
-    for (i in fichier):
-                      ^
-SyntaxError: invalid syntax
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;31m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;python  File "sricpt.py", line 4
-    for (i in fichier)
-                     ^
-SyntaxError: invalid syntax
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;31m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;pythoncat
-echo
-launchctl
-df
-pwd
-test
-csh
-wait4path
-unlink
-sleep
-stty
-date
-ed
-expr
-pax
-bash
-kill
-sh
-domainname
-ps
-link
-tcsh
-dd
-mkdir
-ksh
-hostname
-rmdir
-mv
-ln
-ls
-cp
-sync
-zsh
-chmod
-rm
-[
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;pythoncat
-Traceback (most recent call last):
-  File "sricpt.py", line 6, in <module>
-    os.system('./nm')
-NameError: name 'os' is not defined
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;31m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;pythoncat
-sh: ./nm: No such file or directory
-echo
-sh: ./nm: No such file or directory
-launchctl
-sh: ./nm: No such file or directory
-df
-sh: ./nm: No such file or directory
-pwd
-sh: ./nm: No such file or directory
-test
-sh: ./nm: No such file or directory
-csh
-sh: ./nm: No such file or directory
-wait4path
-sh: ./nm: No such file or directory
-unlink
-sh: ./nm: No such file or directory
-sleep
-sh: ./nm: No such file or directory
-stty
-sh: ./nm: No such file or directory
-date
-sh: ./nm: No such file or directory
-ed
-sh: ./nm: No such file or directory
-expr
-sh: ./nm: No such file or directory
-pax
-sh: ./nm: No such file or directory
-bash
-sh: ./nm: No such file or directory
-kill
-sh: ./nm: No such file or directory
-sh
-sh: ./nm: No such file or directory
-domainname
-sh: ./nm: No such file or directory
-ps
-sh: ./nm: No such file or directory
-link
-sh: ./nm: No such file or directory
-tcsh
-sh: ./nm: No such file or directory
-dd
-sh: ./nm: No such file or directory
-mkdir
-sh: ./nm: No such file or directory
-ksh
-sh: ./nm: No such file or directory
-hostname
-sh: ./nm: No such file or directory
-rmdir
-sh: ./nm: No such file or directory
-mv
-sh: ./nm: No such file or directory
-ln
-sh: ./nm: No such file or directory
-ls
-sh: ./nm: No such file or directory
-cp
-sh: ./nm: No such file or directory
-sync
-sh: ./nm: No such file or directory
-zsh
-sh: ./nm: No such file or directory
-chmod
-sh: ./nm: No such file or directory
-rm
-sh: ./nm: No such file or directory
-[
-sh: ./nm: No such file or directory
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;pythoncat
-echo
-launchctl
-df
-pwd
-test
-csh
-wait4path
-unlink
-sleep
-stty
-date
-ed
-expr
-pax
-bash
-kill
-sh
-domainname
-ps
-link
-tcsh
-dd
-mkdir
-ksh
-hostname
-rmdir
-mv
-ln
-ls
-cp
-sync
-zsh
-chmod
-rm
-[
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;pythoncat
-ERROR FILE
-echo
-ERROR FILE
-launchctl
-ERROR FILE
-df
-ERROR FILE
-pwd
-ERROR FILE
-test
-ERROR FILE
-csh
-ERROR FILE
-wait4path
-ERROR FILE
-unlink
-ERROR FILE
-sleep
-ERROR FILE
-stty
-ERROR FILE
-date
-ERROR FILE
-ed
-ERROR FILE
-expr
-ERROR FILE
-pax
-ERROR FILE
-bash
-ERROR FILE
-kill
-ERROR FILE
-sh
-ERROR FILE
-domainname
-ERROR FILE
-ps
-ERROR FILE
-link
-ERROR FILE
-tcsh
-ERROR FILE
-dd
-ERROR FILE
-mkdir
-ERROR FILE
-ksh
-ERROR FILE
-hostname
-ERROR FILE
-rmdir
-ERROR FILE
-mv
-ERROR FILE
-ln
-ERROR FILE
-ls
-ERROR FILE
-cp
-ERROR FILE
-sync
-ERROR FILE
-zsh
-ERROR FILE
-chmod
-ERROR FILE
-rm
-ERROR FILE
-[
-ERROR FILE
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;pythoncat
-ERROR FILE
-echo
-ERROR FILE
-launchctl
-ERROR FILE
-df
-ERROR FILE
-pwd
-ERROR FILE
-test
-ERROR FILE
-csh
-ERROR FILE
-wait4path
-ERROR FILE
-unlink
-ERROR FILE
-sleep
-ERROR FILE
-stty
-ERROR FILE
-date
-ERROR FILE
-ed
-ERROR FILE
-expr
-ERROR FILE
-pax
-ERROR FILE
-bash
-ERROR FILE
-kill
-ERROR FILE
-sh
-ERROR FILE
-domainname
-ERROR FILE
-ps
-ERROR FILE
-link
-ERROR FILE
-tcsh
-ERROR FILE
-dd
-ERROR FILE
-mkdir
-ERROR FILE
-ksh
-ERROR FILE
-hostname
-ERROR FILE
-rmdir
-ERROR FILE
-mv
-ERROR FILE
-ln
-ERROR FILE
-ls
-ERROR FILE
-cp
-ERROR FILE
-sync
-ERROR FILE
-zsh
-ERROR FILE
-chmod
-ERROR FILE
-rm
-ERROR FILE
-[
-ERROR FILE
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;python/bin/cat
-/bin/echo
-/bin/launchctl
-/bin/df
-/bin/pwd
-/bin/test
-/bin/csh
-/bin/wait4path
-/bin/unlink
-/bin/sleep
-/bin/stty
-/bin/date
-/bin/ed
-/bin/expr
-/bin/pax
-/bin/bash
-/bin/kill
-/bin/sh
-/bin/domainname
-/bin/ps
-/bin/link
-/bin/tcsh
-/bin/dd
-/bin/mkdir
-/bin/ksh
-/bin/hostname
-/bin/rmdir
-/bin/mv
-/bin/ln
-/bin/ls
-/bin/cp
-/bin/sync
-/bin/zsh
-/bin/chmod
-/bin/rm
-/bin/[
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[?1l>[?2004l
-]2;python sricpt.py]1;pythonERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-ERROR FILE
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython sricpt.py[16D                [16D.../ .  ...[?1l>[?2004l
-]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggcc srcs/nm.c -o nm[?1l>[?2004l
-]2;gcc srcs/nm.c -o nm]1;gcc[1msrcs/nm.c:13:9: [0m[0;1;35mwarning: [0m[1mimplicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration][0m
-        printf("%x\n", array[i].n_type & N_TYPE);
-[0;1;32m        ^
-[0m[1msrcs/nm.c:13:9: [0m[0;1;30mnote: [0minclude the header <stdio.h> or explicitly provide a declaration for 'printf'[0m
-1 warning generated.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hppytin  on 
-[J[1;32ma.out[0m*      [J[1;31minclude[0m/    [Jmine        [J[1;32mnm[0m*         [J[1;31mscript[0m/     [J[1;31msrcs[0m/       [Jtheir       [Jtypescript[J[A[0m[27m[24m[24Cpyton[K[1Ca.out
-[J[7ma.out*    [0m  [J[1;31minclude[0m/    [Jmine        [J[1;32mnm[0m*         [J[1;31mscript[0m/     [J[1;31msrcs[0m/       [Jtheir       [Jtypescript[J[A[0m[27m[24m[24Cpyton a.out[K
-[7ma.out*    [0m  [7ma.out*    [0m  [A[0m[27m[24m[24Cpyton a.out[Kinclude[1m/[0m
-[12C[7minclude/  [0m  [1;32ma.out[0m*      [A[0m[27m[24m[24Cpyton include[1m/[0m[K[8Dmine   [0m 
-[24C[7mmine      [0m  [12C[1;31minclude[0m/    [A[0m[27m[24m[24Cpyton mine[Knm  
-[36C[7mnm*       [0m  [24Cmine        [A[0m[27m[24m[24Cpyton nm[Kscript[1m/[0m
-[48C[7mscript/   [0m  [36C[1;32mnm[0m*         [A[0m[27m[24m[24Cpyton script[1m/[0m[K
-[J[A[37C[0m/sricpt.py[1m [0m[0m [?1l>[?2004l
-[J]2;pyton script/sricpt.py]1;pytonzsh: command not found: pyton
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;31m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpyton script/sricpt.py[1C[1Chon script/sricpt.py[19D[?1l>[?2004l
-]2;python script/sricpt.py]1;pythonsh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-sh: ../nm: No such file or directory
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython script/sricpt.py[?1l>[?2004l
-]2;python script/sricpt.py]1;python/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython script/sricpt.py[?1l>[?2004l
-]2;python script/sricpt.py]1;python/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython script/sricpt.py[?1l>[?2004l
-]2;python script/sricpt.py]1;python[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython script/sricpt.py[?1l>[?2004l
-]2;python script/sricpt.py]1;python/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-/Library/Developer/CommandLineTools/usr/bin/nm: x: No such file or directory.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython script/sricpt.py[20D[P[19C [19Dhon script/sricpt.py[?1l>[?2004l
-]2;python script/sricpt.py]1;pythonTraceback (most recent call last):
-  File "script/sricpt.py", line 5, in <module>
-    x = '/bin/'/ + i
-TypeError: bad operand type for unary +: 'str'
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;31m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython script/sricpt.py[?1l>[?2004l
-]2;python script/sricpt.py]1;pythonx
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython script/sricpt.py[?1l>[?2004l
-]2;python script/sricpt.py]1;python  File "script/sricpt.py", line 6
-    os.system('./nm' x)
-                     ^
-SyntaxError: invalid syntax
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;31m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython script/sricpt.py[?1l>[?2004l
-]2;python script/sricpt.py]1;pythonTraceback (most recent call last):
-  File "script/sricpt.py", line 6, in <module>
-    os.system('./nm', x)
-TypeError: system() takes exactly 1 argument (2 given)
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;31m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython script/sricpt.py[?1l>[?2004l
-]2;python script/sricpt.py]1;pythonTraceback (most recent call last):
-  File "script/sricpt.py", line 6, in <module>
-    os.system('./nm', 'x')
-TypeError: system() takes exactly 1 argument (2 given)
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;31m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hbbrew u install pythoon  n               b  ppython --version[?1l>[?2004l
-]2;python --version]1;pythonPython 2.7.10
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hbbrew instll  all pyto hon[?1l>[?2004l
-]2;brew install python]1;brewUpdating Homebrew...
-^C^C^C^C[34m==>[0m [1mAuto-updated Homebrew![0m
-Updated 4 taps (homebrew/cask-versions, homebrew/core, homebrew/cask and homebrew/services).
-[34m==>[0m [1mNew Formulae[0m
-aravis                cgit                  geant4                inadyn                maven@3.5             nwchem                picat                 smimesign             tdlib
-azure-storage-cpp     create-dmg            hyperkit              libcerf               mesa                  objfw                 resin-cli             solr@6.6              tealdeer
-bundletool            diceware              i2pd                  libvmaf               nng                   oclgrind              rke                   sonobuoy              um
-c-blosc               eg-examples           i386-elf-binutils     llvm@6                node@10               opensubdiv            ruby@2.4              sourcedocs            vfuse
-carla                 fluxctl               i386-elf-gcc          mallet                nu-smv                opentracing-cpp       shellz                stanford-corenlp
-[34m==>[0m [1mUpdated Formulae[0m
-[1melasticsearch [32m✔[0m[0m                          dnscrypt-proxy                           helmfile                                 mongo-c-driver                           sdb
-[1mgdbm [32m✔[0m[0m                                   dnsmasq                                  help2man                                 mongo-cxx-driver                         sdl2_image
-[1mnode [32m✔[0m[0m                                   dnstwist                                 highlight                                mongo-orchestration                      sdl2_mixer
-[1msqlite [32m✔[0m[0m                                 docfx                                    hiredis                                  mongodb                                  sec
-abcde                                    docker-compose                           hive                                     mongodb@3.6                              selenium-server-standalone
-abyss                                    docker-compose-completion                hledger                                  mongoose                                 serverless
-ace                                      docker-ls                                hmmer                                    mosquitto                                shairport-sync
-activemq                                 docker-machine-driver-xhyve              homebank                                 mpd                                      shellharden
-advancecomp                              docker-machine-nfs                       honcho                                   mpv                                      shibboleth-sp
-advancemame                              docker-squash                            howdoi                                   mscgen                                   shocco
-agda                                     doctl                                    httpd                                    mujs                                     shogun
-aha                                      docutils                                 httpie                                   muparser                                 shpotify
-aircrack-ng                              doitlive                                 hub                                      mupdf                                    simutrans
-akamai                                   double-conversion                        hugo                                     mupdf-tools                              skaffold
-alexjs                                   dub                                      hwloc                                    mysql@5.5                                skafos
-algernon                                 duck                                     hyperfine                                mysql@5.6                                sleuthkit
-allure                                   duo_unix                                 i2p                                      mysql@5.7                                smlnj
-alluxio                                  duplicity                                iamy                                     n                                        snapraid
-amazon-ecs-cli                           dynare                                   icdiff                                   nano                                     sngrep
-ammonite-repl                            ejabberd                                 ice                                      nativefier                               softhsm
-amqp-cpp                                 elasticsearch@5.6                        icecream                                 nats-streaming-server                    solr
-angular-cli                              elixir                                   idris                                    nco                                      sops
-anjuta                                   elm-format                               imagemagick                              ncview                                   source-to-image
-annie                                    embulk                                   imagemagick@6                            ne                                       sourcery
-ansible                                  emscripten                               imageworsener                            neko                                     spades
-ansible-cmdb                             eralchemy                                imapfilter                               netcdf                                   spdlog
-ansifilter                               erlang                                   immortal                                 netpbm                                   sphinx-doc
-antlr                                    erlang@17                                influxdb                                 newsboat                                 spotbugs
-antlr@2                                  erlang@18                                internetarchive                          nexus                                    sqldiff
-apache-arrow                             erlang@19                                ioping                                   nghttp2                                  sqlite-analyzer
-apache-arrow-glib                        erlang@20                                ipfs                                     nginx                                    sqlmap
-apache-flink                             eslint                                   iproute2mac                              ngspice                                  sqlparse
-apache-geode                             etcd                                     ipv6calc                                 nifi                                     sratoolkit
-apache-spark                             ethereum                                 ipython                                  nifi-registry                            ssh-copy-id
-app-engine-java                          euler-py                                 jabba                                    nim                                      sshconfigfs
-apr                                      evince                                   jbake                                    nnn                                      sshuttle
-arangodb                                 exercism                                 jdupes                                   node-build                               sslmate
-arcade-learning-environment              exiftool                                 jenkins                                  nodebrew                                 stellar-core
-aria2                                    exploitdb                                jenkins-job-builder                      nomad                                    stlink
-ark                                      eye-d3                                   jenkins-lts                              nsd                                      stormpath-cli
-armadillo                                faas-cli                                 jerasure                                 nss                                      stormssh
-arp-scan                                 fabric                                   jetty                                    ntopng                                   streamlink
-arpack                                   fail2ban                                 jetty-runner                             numpy                                    strongswan
-asciidoc                                 fd                                       jflex                                    nyx                                      stubby
-asciidoctor                              feedgnuplot                              jfrog-cli-go                             ocamlbuild                               stunnel
-asdf                                     feh                                      jhipster                                 ocrmypdf                                 sundials
-aspectj                                  ffmbc                                    jmeter                                   octave                                   suricata
-atdtool                                  ffmpeg                                   joplin                                   odpi                                     svgo
-aubio                                    ffmpeg@2.8                               jq                                       opam                                     svtplay-dl
-aurora-cli                               field3d                                  jrnl                                     open-mpi                                 swift-protobuf
-autopep8                                 file-formula                             json-fortran                             open-scene-graph                         swiftformat
-avfs                                     file-roller                              json-glib                                openapi-generator                        swiftgen
-avrdude                                  firebase-cli                             jsonrpc-glib                             opencascade                              swimat
-avro-c                                   flake8                                   juju                                     opencoarrays                             sync_gateway
-awk                                      flann                                    jump                                     opencv                                   syncthing
-aws-elasticbeanstalk                     flatbuffers                              kakoune                                  openrtsp                                 tarantool
-aws-okta                                 flow                                     kallisto                                 opensc                                   tarsnapper
-aws-shell                                fluent-bit                               kerl                                     openshift-cli                            tbb
-awscli                                   flyway                                   khal                                     openssh                                  tcpflow
-awslogs                                  fmpp                                     kibana                                   openvdb                                  tectonic
-azure-cli                                fmsx                                     kibana@5.6                               opus                                     telegraf
-b2-tools                                 fn                                       kitchen-sync                             opusfile                                 teleport
-babel                                    fobis                                    kobalt                                   orc-tools                                tepl
-ballerina                                folly                                    kompose                                  ortp                                     termius
-basex                                    fonttools                                konoha                                   oysttyer                                 terraform
-bash-snippets                            ford                                     kotlin                                   pacapt                                   terraform-docs
-bat                                      fork-cleaner                             krakend                                  packer                                   terragrunt
-bazel                                    fortio                                   krb5                                     paket                                    tesseract
-bcal                                     fossil                                   kubernetes-cli                           pandoc                                   testssl
-bde                                      fpc                                      kubernetes-helm                          pandoc-citeproc                          texmath
-bdw-gc                                   fq                                       kubernetes-service-catalog-client        pandoc-crossref                          tgui
-beast                                    freetds                                  kumo                                     pangomm                                  thors-serializer
-bento4                                   freetds@0.91                             kustomize                                parallel                                 tiger-vnc
-bettercap                                freexl                                   landscaper                               pass                                     tika
-binaryen                                 frugal                                   languagetool                             passenger                                tinc
-bind                                     fselect                                  lasso                                    passpie                                  tinyproxy
-binutils                                 fuseki                                   lastpass-cli                             payara                                   tippecanoe
-binwalk                                  futhark                                  latexdiff                                pcl                                      tmux
-bison                                    fwup                                     ldc                                      pdal                                     tmuxinator-completion
-bitcoin                                  fzf                                      lean-cli                                 pdfpc                                    tomcat
-bitrise                                  fzy                                      legit                                    pdftoedn                                 tomcat@7
-black                                    gandi.cli                                lego                                     pdftoipe                                 tomcat@8
-blink1                                   gauge                                    libbi                                    pegtl                                    topgrade
-bluepill                                 gcc@6                                    libbtbb                                  percol                                   tor
-blueutil                                 gdb                                      libconfig                                percona-toolkit                          tox
-bmake                                    geckodriver                              libcouchbase                             pgbadger                                 traefik
-bnd                                      gecode                                   libdazzle                                pgformatter                              translate-toolkit
-bowtie2                                  gedit                                    libdill                                  pgrouting                                trash-cli
-braid                                    genometools                              libepoxy                                 phoronix-test-suite                      travis
-brew-gem                                 geos                                     liberasurecode                           php                                      treefrog
-brogue                                   getdns                                   libetpan                                 php-code-sniffer                         ttyd
-brotli                                   ghc                                      libfabric                                php-cs-fixer                             tundra
-buildifier                               ghostscript                              libgcrypt                                php@5.6                                  tup
-buku                                     git                                      libgda                                   php@7.0                                  tvnamer
-bullet                                   git-annex                                libgit2                                  php@7.1                                  twarc
-bup                                      git-archive-all                          libgit2-glib                             phpunit                                  twine-pypi
-bzt                                      git-cinnabar                             libgosu                                  pike                                     typescript
-c-ares                                   git-cola                                 libheif                                  pipenv                                   ucloud
-cabal-install                            git-credential-manager                   libiscsi                                 pius                                     uhd
-caf                                      git-lfs                                  libjson-rpc-cpp                          pixz                                     unbound
-caffe                                    git-open                                 liblcf                                   planck                                   unoconv
-cairo                                    git-recent                               liblo                                    plantuml                                 unp64
-calc                                     git-review                               libmagic                                 platformio                               unrar
-camlp5                                   git-sizer                                libmatio                                 pmd                                      unshield
-cargo-completion                         git-standup                              libmxml                                  ponyc                                    urh
-carthage                                 gitfs                                    libopendkim                              poppler                                  uriparser
-cash-cli                                 gitg                                     libopkele                                portmidi                                 urweb
-cassandra                                gitlab-runner                            libopusenc                               posh                                     v8
-ccache                                   gitless                                  libphonenumber                           postgis                                  vagrant-completion
-ccextractor                              gjs                                      libplist                                 povray                                   vala
-ccm                                      glances                                  libpq                                    ppsspp                                   valgrind
-cern-ndiff                               glib                                     libpqxx                                  pqiv                                     vapoursynth
-cgal                                     glibmm                                   libproxy                                 pre-commit                               varnish
-cglm                                     glide                                    libpst                                   presto                                   vault
-chakra                                   glm                                      libqalculate                             prettier                                 vegeta
-chamber                                  global                                   librdkafka                               prips                                    vert.x
-chapel                                   globjects                                librealsense                             profanity                                vice
-cheat                                    gloox                                    libressl                                 proj                                     vim
-checkbashisms                            glslang                                  librsvg                                  prometheus                               vips
-checkstyle                               gmime                                    libsecret                                proselint                                vnu
-chisel                                   gmsh                                     libsigc++                                protobuf-swift                           voldemort
-choose                                   gmt                                      libsoup                                  prototool                                vorbis-tools
-chrome-export                            gmt@4                                    libspectre                               pspg                                     vte3
-chronograf                               gnome-latex                              libssh                                   pulumi                                   vtk
-chruby-fish                              gnu-units                                libtensorflow                            pumba                                    wabt
-circleci                                 gnupg                                    libtorrent-rasterbar                     puzzles                                  wakatime-cli
-citus                                    gnuplot                                  libuv                                    pwntools                                 wallpaper
-clamav                                   go                                       libvirt                                  py3cairo                                 watchman
-clang-format                             go-statik                                libvoikko                                pyenv                                    watson
-clipper                                  goaccess                                 libwbxml                                 pygobject3                               wdiff
-cloc                                     gocr                                     libxlsxwriter                            pyinvoke                                 weaver
-clojure                                  godep                                    linkerd                                  pyside                                   webpack
-closure-compiler                         goenv                                    links                                    python-markdown                          weechat
-cmake                                    golang-migrate                           livestreamer                             q                                        when
-cmark-gfm                                googler                                  llnode                                   qcachegrind                              whois
-cmdshelf                                 goolabs                                  llvm                                     qcli                                     wine
-cmocka                                   goreleaser                               logstash                                 qd                                       wireguard-go
-cnats                                    gosu                                     logtalk                                  qmmp                                     wireguard-tools
-codemod                                  gowsdl                                   luaradio                                 qt                                       wireshark
-codequery                                gpa                                      luvit                                    quicktype                                wtf
-coffeescript                             gpgme                                    lxc                                      rabbitmq                                 x265
-collectd                                 gprof2dot                                lynis                                    rakudo-star                              xcodegen
-collector-sidecar                        gradle                                   lz4                                      rancher-cli                              xctool
-commandbox                               grafana                                  mackup                                   ranger                                   xerces-c
-compcert                                 grails                                   magic-wormhole                           rclone                                   xmake
-composer                                 grakn                                    mame                                     rdesktop                                 xml-tooling-c
-conan                                    grib-api                                 mapserver                                re2                                      xmrig
-consul                                   grip                                     mariadb                                  rebar3                                   xonsh
-container-diff                           groovy                                   mariadb@10.2                             redis                                    xtensor
-convox                                   grpc                                     mas                                      redo                                     yaml-cpp
-cookiecutter                             grunt-cli                                math-comp                                remarshal                                yamllint
-coq                                      grunt-completion                         maven                                    restic                                   yank
-cpmtools                                 grv                                      maxwell                                  restview                                 yara
-cppcheck                                 gst-editing-services                     mbedtls                                  riemann-client                           yarn
-cpprestsdk                               gst-libav                                mdcat                                    rmlint                                   yasm
-credstash                                gst-plugins-bad                          mdds                                     rofs-filtered                            yaz
-cromwell                                 gst-plugins-base                         mdp                                      rom-tools                                ydcv
-crosstool-ng                             gst-plugins-good                         mdv                                      root                                     yelp-tools
-crowdin                                  gst-plugins-ugly                         megacmd                                  roswell                                  ykman
-crystal                                  gst-python                               megatools                                rp                                       yle-dl
-curl                                     gst-rtsp-server                          memcached                                rst-lint                                 yosys
-cvs2svn                                  gst-validate                             menhir                                   rtags                                    you-get
-cython                                   gstreamer                                mercurial                                ruby                                     youtube-dl
-darksky-weather                          gtk-mac-integration                      meson                                    ruby-build                               yq
-dartsim                                  gtkspell3                                metabase                                 ruby@2.3                                 yubico-piv-tool
-dateutils                                gucharmap                                metaproxy                                rust                                     z3
-dbhash                                   gwyddion                                 micronaut                                rustup-init                              zanata-client
-dcd                                      hadolint                                 mikutter                                 s-search                                 zenity
-ddgr                                     hapi-fhir-cli                            mill                                     s3cmd                                    zig
-dependency-check                         haproxy                                  miller                                   safe                                     zookeeper
-dfmt                                     harfbuzz                                 minio                                    saxon                                    zpython
-dhall-json                               hashpump                                 minio-mc                                 sbcl                                     zsh
-diff-pdf                                 haste-client                             minizinc                                 sbt                                      zsh-completions
-diffoscope                               hbase                                    mkdocs                                   scala                                    zstd
-digdag                                   hcloud                                   mkvtoolnix                               scalaenv
-dita-ot                                  hdf5                                     mmark                                    sceptre
-django-completion                        hdf5@1.8                                 monero                                   scipy
-dlib                                     hebcal                                   monetdb                                  scour
-[34m==>[0m [1mRenamed Formulae[0m
-gtksourceview@4 -> gtksourceview4
-[34m==>[0m [1mDeleted Formulae[0m
-asciinema2gif     datomic           heroku            kibana@4.4        maven@3.1         nethack4          opensyobon        queequeg          ruby@2.2          sonarlint         tcptrack
-casperjs          gjstest           ib                lsh               mimms             onepass           pxz               reclass           sary              submarine
-corebird          hachoir-metadata  juju-quickstart   maven@3.0         nesemu2           open-vcdiff       qt@5.5            redis@2.8         sickbeard         taylor
-
-[33mWarning:[0m python 3.7.0 is already installed and up-to-date
-To reinstall 3.7.0, run `brew reinstall python`
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hppython --version[?1l>[?2004l
-]2;python --version]1;pythonPython 2.7.10
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hbbrew reinstall python[?1l>[?2004l
-]2;brew reinstall python]1;brew[32m==>[0m [1mReinstalling [32mpython[39m [0m
-[32m==>[0m [1mInstalling dependencies for python: [32mgdbm[39m, [32mopenssl[39m and [32msqlite[39m[0m
-[32m==>[0m [1mInstalling python dependency: [32mgdbm[39m[0m
-[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/gdbm-1.18.1.high_sierra.bottle.tar.gz[0m
-                                                                           0.4%######                                                                     9.7%##################                                                        26.0%###################################                                       49.5%#######################################################                   76.5%######################################################################## 100.0%
-[34m==>[0m [1mPouring gdbm-1.18.1.high_sierra.bottle.tar.gz[0m
-🍺  /usr/local/Cellar/gdbm/1.18.1: 20 files, 591KB
-[32m==>[0m [1mInstalling python dependency: [32mopenssl[39m[0m
-[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/openssl-1.0.2p.high_sierra.bottle.tar.gz[0m
-[34m==>[0m [1mDownloading from https://akamai.bintray.com/f5/f5f498c4e8dee3e835c1750cb4140c2f7c52ae21f18f699894d0f0e418970ec3?__gda__=exp=1541587536~hmac=7cb1485f54f78dca32f78235c25d6ac84931771e5a046db6d69c74c43691[0m
-                                                                           1.4%###                                                                        4.3%#####                                                                      7.6%#######                                                                   10.9%##########                                                                14.5%############                                                              17.8%###############                                                           21.5%#################                                                         24.7%####################                                                      28.0%######################                                                    31.2%########################                                                  34.6%###########################                                               38.2%#############################                                             41.4%################################                                          45.1%##################################                                        48.0%#####################################                                     51.6%#######################################                                   54.5%#########################################                                 58.2%############################################                              61.8%##############################################                            65.2%#################################################                         68.4%###################################################                       71.7%#####################################################                     74.9%########################################################                  78.6%##########################################################                81.5%#############################################################             85.1%###############################################################           88.5%##################################################################        91.7%####################################################################      95.0%#######################################################################   98.7%######################################################################## 100.0%
-[34m==>[0m [1mPouring openssl-1.0.2p.high_sierra.bottle.tar.gz[0m
-[34m==>[0m [1mCaveats[0m
-A CA file has been bootstrapped using certificates from the SystemRoots
-keychain. To add additional certificates (e.g. the certificates added in
-the System keychain), place .pem files in
-  /usr/local/etc/openssl/certs
-
-and run
-  /usr/local/opt/openssl/bin/c_rehash
-
-openssl is keg-only, which means it was not symlinked into /usr/local,
-because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries.
-
-If you need to have openssl first in your PATH run:
-  echo 'export PATH="/usr/local/opt/openssl/bin:$PATH"' >> ~/.zshrc
-
-For compilers to find openssl you may need to set:
-  export LDFLAGS="-L/usr/local/opt/openssl/lib"
-  export CPPFLAGS="-I/usr/local/opt/openssl/include"
-
-[34m==>[0m [1mSummary[0m
-🍺  /usr/local/Cellar/openssl/1.0.2p: 1,793 files, 12.3MB
-[32m==>[0m [1mInstalling python dependency: [32msqlite[39m[0m
-[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/sqlite-3.25.2.high_sierra.bottle.tar.gz[0m
-[34m==>[0m [1mDownloading from https://akamai.bintray.com/fa/fad1ca79fa7b40075724127e26e06c46719651c4e6abba4bb88e173167efe186?__gda__=exp=1541587550~hmac=ed1909582d9d83408a910e1e87050c6a569ca937f5b2bcbb2bd627eb7b01[0m
-##                                                                         3.0%#######                                                                   10.8%############                                                              17.9%#################                                                         24.7%#######################                                                   32.5%############################                                              39.6%#################################                                         46.5%######################################                                    53.6%############################################                              61.3%#################################################                         68.2%######################################################                    75.3%###########################################################               83.0%################################################################          89.9%######################################################################    97.7%######################################################################## 100.0%
-[34m==>[0m [1mPouring sqlite-3.25.2.high_sierra.bottle.tar.gz[0m
-[34m==>[0m [1mCaveats[0m
-sqlite is keg-only, which means it was not symlinked into /usr/local,
-because macOS provides an older sqlite3.
-
-If you need to have sqlite first in your PATH run:
-  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
-
-For compilers to find sqlite you may need to set:
-  export LDFLAGS="-L/usr/local/opt/sqlite/lib"
-  export CPPFLAGS="-I/usr/local/opt/sqlite/include"
-
-[34m==>[0m [1mSummary[0m
-🍺  /usr/local/Cellar/sqlite/3.25.2: 11 files, 3.7MB
-[32m==>[0m [1mInstalling [32mpython[39m[0m
-[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/python-3.7.0.high_sierra.bottle.6.tar.gz[0m
-[34m==>[0m [1mDownloading from https://akamai.bintray.com/2f/2f4d31189e2c1141ce60b2e102c4159e391f76fcaa76a02289f108ef88018f73?__gda__=exp=1541587556~hmac=c7c5df46118519bb547824833f4a5777605de375fff96b412fe9f1820938[0m
-                                                                           0.3%                                                                           0.7%                                                                           1.3%#                                                                          1.8%#                                                                          2.4%##                                                                         3.0%##                                                                         3.6%##                                                                         4.1%###                                                                        4.7%###                                                                        5.2%####                                                                       5.7%####                                                                       6.3%####                                                                       6.9%#####                                                                      7.4%#####                                                                      8.0%######                                                                     8.6%######                                                                     9.2%#######                                                                    9.7%#######                                                                   10.3%#######                                                                   10.9%########                                                                  11.4%########                                                                  12.0%#########                                                                 12.6%#########                                                                 13.1%#########                                                                 13.7%##########                                                                14.1%##########                                                                14.7%###########                                                               15.3%###########                                                               15.8%###########                                                               16.4%############                                                              16.9%############                                                              17.4%############                                                              18.0%#############                                                             18.6%#############                                                             19.1%##############                                                            19.6%##############                                                            20.2%##############                                                            20.8%###############                                                           21.3%###############                                                           21.9%################                                                          22.5%################                                                          23.0%################                                                          23.6%#################                                                         24.2%#################                                                         24.7%##################                                                        25.3%##################                                                        25.9%###################                                                       26.5%###################                                                       27.0%###################                                                       27.6%####################                                                      28.2%####################                                                      28.7%#####################                                                     29.3%#####################                                                     29.9%#####################                                                     30.5%######################                                                    31.0%######################                                                    31.6%#######################                                                   32.1%#######################                                                   32.7%#######################                                                   33.2%########################                                                  33.8%########################                                                  34.4%#########################                                                 34.9%#########################                                                 35.5%#########################                                                 36.1%##########################                                                36.7%##########################                                                37.2%###########################                                               37.8%###########################                                               38.3%############################                                              38.9%############################                                              39.5%############################                                              40.0%#############################                                             40.4%#############################                                             41.0%#############################                                             41.6%##############################                                            42.1%##############################                                            42.7%###############################                                           43.2%###############################                                           43.8%###############################                                           44.4%################################                                          44.9%################################                                          45.5%#################################                                         46.1%#################################                                         46.5%#################################                                         47.2%##################################                                        47.8%##################################                                        48.4%###################################                                       48.9%###################################                                       49.4%###################################                                       49.9%####################################                                      50.5%####################################                                      51.0%#####################################                                     51.6%#####################################                                     52.1%#####################################                                     52.6%######################################                                    53.1%######################################                                    53.7%#######################################                                   54.2%#######################################                                   54.8%#######################################                                   55.4%########################################                                  56.0%########################################                                  56.5%#########################################                                 57.1%#########################################                                 57.7%#########################################                                 58.0%##########################################                                58.5%##########################################                                58.8%##########################################                                59.2%###########################################                               59.8%###########################################                               60.3%###########################################                               60.8%############################################                              61.2%############################################                              61.5%############################################                              61.9%############################################                              62.4%#############################################                             62.9%#############################################                             63.5%##############################################                            64.0%##############################################                            64.5%##############################################                            65.0%###############################################                           65.6%###############################################                           66.2%################################################                          66.7%################################################                          67.3%################################################                          67.9%#################################################                         68.4%#################################################                         69.0%##################################################                        69.6%##################################################                        70.1%##################################################                        70.7%###################################################                       71.2%###################################################                       71.8%####################################################                      72.3%####################################################                      72.9%####################################################                      73.4%#####################################################                     74.0%#####################################################                     74.6%######################################################                    75.2%######################################################                    75.7%######################################################                    76.2%#######################################################                   76.8%#######################################################                   77.3%########################################################                  77.9%########################################################                  78.5%########################################################                  79.0%#########################################################                 79.3%#########################################################                 79.9%#########################################################                 80.4%##########################################################                81.0%##########################################################                81.6%###########################################################               82.1%###########################################################               82.6%###########################################################               83.2%############################################################              83.7%############################################################              84.3%#############################################################             84.9%#############################################################             85.4%#############################################################             86.0%##############################################################            86.6%##############################################################            87.1%###############################################################           87.7%###############################################################           88.3%###############################################################           88.8%################################################################          89.4%################################################################          90.0%#################################################################         90.6%#################################################################         91.1%#################################################################         91.7%##################################################################        92.2%##################################################################        92.7%###################################################################       93.1%###################################################################       93.7%###################################################################       94.2%####################################################################      94.8%####################################################################      95.4%#####################################################################     95.9%#####################################################################     96.4%#####################################################################     97.0%######################################################################    97.6%######################################################################    98.1%#######################################################################   98.7%#######################################################################   99.3%#######################################################################   99.9%######################################################################## 100.0%
-[34m==>[0m [1mPouring python-3.7.0.high_sierra.bottle.6.tar.gz[0m
-[34m==>[0m [1m/usr/local/Cellar/python/3.7.0/bin/python3 -s setup.py --no-user-cfg install --force --verbose --install-scripts=/usr/local/Cellar/python/3.7.0/bin --install-lib=/usr/local/lib/python3.7/site-packages[0m
-[34m==>[0m [1m/usr/local/Cellar/python/3.7.0/bin/python3 -s setup.py --no-user-cfg install --force --verbose --install-scripts=/usr/local/Cellar/python/3.7.0/bin --install-lib=/usr/local/lib/python3.7/site-packages[0m
-[34m==>[0m [1m/usr/local/Cellar/python/3.7.0/bin/python3 -s setup.py --no-user-cfg install --force --verbose --install-scripts=/usr/local/Cellar/python/3.7.0/bin --install-lib=/usr/local/lib/python3.7/site-packages[0m
-[34m==>[0m [1mCaveats[0m
-Python has been installed as
-  /usr/local/bin/python3
-
-Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
-`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
-  /usr/local/opt/python/libexec/bin
-
-If you need Homebrew's Python 2.7 run
-  brew install python@2
-
-Pip, setuptools, and wheel have been installed. To update them run
-  pip3 install --upgrade pip setuptools wheel
-
-You can install Python packages with
-  pip3 install <package>
-They will install into the site-package directory
-  /usr/local/lib/python3.7/site-packages
-
-See: https://docs.brew.sh/Homebrew-and-Python
-[34m==>[0m [1mSummary[0m
-🍺  /usr/local/Cellar/python/3.7.0: 4,781 files, 102MB
-[32m==>[0m [1mCaveats[0m
-[34m==>[0m [1mopenssl[0m
-A CA file has been bootstrapped using certificates from the SystemRoots
-keychain. To add additional certificates (e.g. the certificates added in
-the System keychain), place .pem files in
-  /usr/local/etc/openssl/certs
-
-and run
-  /usr/local/opt/openssl/bin/c_rehash
-
-openssl is keg-only, which means it was not symlinked into /usr/local,
-because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries.
-
-If you need to have openssl first in your PATH run:
-  echo 'export PATH="/usr/local/opt/openssl/bin:$PATH"' >> ~/.zshrc
-
-For compilers to find openssl you may need to set:
-  export LDFLAGS="-L/usr/local/opt/openssl/lib"
-  export CPPFLAGS="-I/usr/local/opt/openssl/include"
-
-[34m==>[0m [1msqlite[0m
-sqlite is keg-only, which means it was not symlinked into /usr/local,
-because macOS provides an older sqlite3.
-
-If you need to have sqlite first in your PATH run:
-  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
-
-For compilers to find sqlite you may need to set:
-  export LDFLAGS="-L/usr/local/opt/sqlite/lib"
-  export CPPFLAGS="-I/usr/local/opt/sqlite/include"
-
-[34m==>[0m [1mpython[0m
-Python has been installed as
-  /usr/local/bin/python3
-
-Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
-`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
-  /usr/local/opt/python/libexec/bin
-
-If you need Homebrew's Python 2.7 run
-  brew install python@2
-
-Pip, setuptools, and wheel have been installed. To update them run
-  pip3 install --upgrade pip setuptools wheel
-
-You can install Python packages with
-  pip3 install <package>
-They will install into the site-package directory
-  /usr/local/lib/python3.7/site-packages
-
-See: https://docs.brew.sh/Homebrew-and-Python
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hbrew reinstall python[21Dpython --version     [?1l>[?2004l
-]2;python --version]1;pythonPython 2.7.10
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h//bin[?1l>[?2004l
-]2;/bin]1;/bin[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: /bin]1;/bin[0m[27m[24m[J[01;32m➜  [36m/bin[00m [K[?1h=[?2004hppy
-[0mpydoc              pydoc3             pyenv_prompt_info  python-config      python2.7-config   python3-config     python3.7-config   python3.7m-config  pythonw2.7         pyvenv-3.7       
-[Jpydoc2.7           [Jpydoc3.7           [Jpython             [Jpython2.7          [Jpython3            [Jpython3.7          [Jpython3.7m         [Jpythonw            [Jpyvenv             [J                 [A[A[0m[27m[24m[8Cpy[Kdoc
-[7mpydoc            [0m  pydoc3             pyenv_prompt_info  python-config      python2.7-config   python3-config     python3.7-config   python3.7m-config  pythonw2.7         pyvenv-3.7       [K
-[Jpydoc2.7           [Jpydoc3.7           [Jpython             [Jpython2.7          [Jpython3            [Jpython3.7          [Jpython3.7m         [Jpythonw            [Jpyvenv             [J                 [A[A[0m[27m[24m[8Cpydoc[K
-[7mpydoc            [0m  [7mpydoc            [0m  [A[0m[27m[24m[8Cpydoc[K2.7
-[0mpydoc              [1B[7mpydoc2.7         [0m  [A[A[0m[27m[24m[8Cpydoc2.7[K3  
-[19C[7mpydoc3           [0m  [1Bpydoc2.7           [A[A[0m[27m[24m[8Cpydoc3[K.7
-[19C[0mpydoc3             [1B[19C[7mpydoc3.7         [0m  [A[A[0m[27m[24m[8Cpydoc3.7[Kenv_prompt_info
-[38C[7mpyenv_prompt_info[0m  [1B[19Cpydoc3.7           [A[A[0m[27m[24m[8Cpyenv_prompt_info[K[15Dthon           [11D
-[38C[0mpyenv_prompt_info  [1B[38C[7mpython           [0m  [A[A[0m[27m[24m[8Cpython[K-config
-[57C[7mpython-config    [0m  [1B[38Cpython             [A[A[0m[27m[24m[8Cpython-config[K2.7    
-[57C[0mpython-config      [1B[57C[7mpython2.7        [0m  [A[A[0m[27m[24m[8Cpython2.7[K-config
-[76C[7mpython2.7-config [0m  [1B[57Cpython2.7          [A[A[0m[27m[24m[8Cpython2.7-config[K[10D3         [9D
-[76C[0mpython2.7-config   [1B[76C[7mpython3          [0m  [A[A[0m[27m[24m[8Cpython3[K-config
-[95C[7mpython3-config   [0m  [1B[76Cpython3            [A[A[0m[27m[24m[8Cpython3-config[K.7     
-[95C[0mpython3-config     [1B[95C[7mpython3.7        [0m  [A[A[0m[27m[24m[8Cpython3.7[K
-[J[A[17C[1m [0m[0m        p  ppython
-[J[0mpython             python2.7          python3            python3.7          python3.7m         pythonw                                                                                
-[Jpython-config      [Jpython2.7-config   [Jpython3-config     [Jpython3.7-config   [Jpython3.7m-config  [Jpythonw2.7         [J                                                                    [A[A[0m[27m[24m[8Cpython[K3.7        p  /[?1l>[?2004l
-[J]2;/]1;/[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: /]1;/[0m[27m[24m[J[01;32m➜  [36m/[00m [K[?1h=[?2004hddo
-[0mdo                             docker-compose                 docker-machine                 domainname                     dot_clean                                                   
-[Jdocker                         [Jdocker-credential-osxkeychain  [Jdocker.backup                  [Jdone                           [Jdown-line-or-beginning-search  [J                             [A[A[0m[27m[24m[5Cdo[Kc
-[J[A[8Cker    d  c[?1l>[?2004l
-[J]2;c]1;czsh: command not found: c
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: /]1;/[0m[27m[24m[J[01;31m➜  [36m/[00m [K[?1h=[?2004hccd[?1l>[?2004l
-]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~]1;~[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hddocuD[3Cments[1m/[0m[0m [?1l>[?2004l
-]2;Documents]1;Documents[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents]1;~/Documents[0m[27m[24m[J[01;32m➜  [36mDocuments[00m [K[?1h=[?2004hfft_nm[1m/[0m[0m [?1l>[?2004l
-]2;ft_nm]1;ft_nm[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hsscr
-[J[0mSCREEN_NO      [JSCRIPT         [Jscreen         [Jscreen-4.6.2   [Jscreencapture  [Jscript       [J[A[0m[27m[24m[24Cscr[K s  ccd s
-[J[J[1;31mscript[0m/  [J[1;31msrcs[0m/  [J[A[0m[27m[24m[24Ccd s[Kcript[1m/[0m
-[J[7mscript/[0m  [J[1;31msrcs[0m/  [J[A[0m[27m[24m[24Ccd script[1m/[0m[K
-[7mscript/[0m  [7mscript/[0m  [A[0m[27m[24m[24Ccd script[1m/[0m[K
-[J[A[34C[0m [?1l>[?2004l
-[J]2;cd script]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hppython3
-[J[0mpython3            [Jpython3-config     [Jpython3.7          [Jpython3.7-config   [Jpython3.7m         [Jpython3.7m-config[J[A[0m[27m[24m[25Cpython3[K
-[J[7mpython3          [0m  [Jpython3-config     [Jpython3.7          [Jpython3.7-config   [Jpython3.7m         [Jpython3.7m-config[J[A[0m[27m[24m[25Cpython3[K
-[7mpython3          [0m  [7mpython3          [0m  [A[0m[27m[24m[25Cpython3[K-config
-[19C[7mpython3-config   [0m  python3            [A[0m[27m[24m[25Cpython3-config[K.7     
-[38C[7mpython3.7        [0m  [19Cpython3-config     [A[0m[27m[24m[25Cpython3.7[K-config
-[57C[7mpython3.7-config [0m  [38Cpython3.7          [A[0m[27m[24m[25Cpython3.7-config[K       
-[38C[7mpython3.7        [0m  [57Cpython3.7-config   [A[0m[27m[24m[25Cpython3.7[K
-[J[A[34C[1m [0m[0m sricpt.py[1m [0m[0m [?1l>[?2004l
-[J]2;python3.7 sricpt.py]1;python3.7Traceback (most recent call last):
-  File "sricpt.py", line 6, in <module>
-    os.system('./nm', 'x')
-TypeError: system() takes at most 1 argument (2 given)
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;31m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython3.7 sricpt.py[?1l>[?2004l
-]2;python3.7 sricpt.py]1;python3.7Traceback (most recent call last):
-  File "sricpt.py", line 7, in <module>
-    subprocess.call('./nm', 'x')
-  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/subprocess.py", line 304, in call
-    with Popen(*popenargs, **kwargs) as p:
-  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/subprocess.py", line 658, in __init__
-    raise TypeError("bufsize must be an integer")
-TypeError: bufsize must be an integer
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;31m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython3.7 sricpt.py[?1l>[?2004l
-]2;python3.7 sricpt.py]1;python3.7[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm/script]1;../ft_nm/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h...[?1l>[?2004l
-]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h.[?1l>[?2004l
-]2;.]1;..: not enough arguments
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;31m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hCCD ..[?1l>[?2004l
-]2;CD ..]1;CD[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h...[?1l>[?2004l
-]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents]1;~/Documents[0m[27m[24m[J[01;32m➜  [36mDocuments[00m [K[?1h=[?2004hggcl [7m9481b5d03fe781d6bc87171ee16252c40b85aee5[27m[40D[27m9[27m4[27m8[27m1[27mb[27m5[27md[27m0[27m3[27mf[27me[27m7[27m8[27m1[27md[27m6[27mb[27mc[27m8[27m7[27m1[27m7[27m1[27me[27me[27m1[27m6[27m2[27m5[27m2[27mc[27m4[27m0[27mb[27m8[27m5[27ma[27me[27me[27m                                         g  ggcl [7mhttps://github.com/Lumaria/Projet-WEBAGENCY.git[27m[47D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mL[27mu[27mm[27ma[27mr[27mi[27ma[27m/[27mP[27mr[27mo[27mj[27me[27mt[27m-[27mW[27mE[27mB[27mA[27mG[27mE[27mN[27mC[27mY[27m.[27mg[27mi[27mt ql lix[?1l>[?2004l
-]2;git clone --recurse-submodules https://github.com/Lumaria/Projet-WEBAGENCY.gi]1;gclCloning into 'qlix'...
-remote: Enumerating objects: 80, done.[K
-Unpacking objects:   1% (1/80)   Unpacking objects:   2% (2/80)   Unpacking objects:   3% (3/80)   Unpacking objects:   5% (4/80)   Unpacking objects:   6% (5/80)   Unpacking objects:   7% (6/80)   Unpacking objects:   8% (7/80)   Unpacking objects:  10% (8/80)   Unpacking objects:  11% (9/80)   Unpacking objects:  12% (10/80)   Unpacking objects:  13% (11/80)   Unpacking objects:  15% (12/80)   Unpacking objects:  16% (13/80)   Unpacking objects:  17% (14/80)   Unpacking objects:  18% (15/80)   Unpacking objects:  20% (16/80)   Unpacking objects:  21% (17/80)   Unpacking objects:  22% (18/80)   Unpacking objects:  23% (19/80)   Unpacking objects:  25% (20/80)   Unpacking objects:  26% (21/80)   Unpacking objects:  27% (22/80)   Unpacking objects:  28% (23/80)   Unpacking objects:  30% (24/80)   Unpacking objects:  31% (25/80)   Unpacking objects:  32% (26/80)   Unpacking objects:  33% (27/80)   Unpacking objects:  35% (28/80)   Unpacking objects:  36% (29/80)   Unpacking objects:  37% (30/80)   Unpacking objects:  38% (31/80)   Unpacking objects:  40% (32/80)   Unpacking objects:  41% (33/80)   Unpacking objects:  42% (34/80)   Unpacking objects:  43% (35/80)   Unpacking objects:  45% (36/80)   Unpacking objects:  46% (37/80)   Unpacking objects:  47% (38/80)   Unpacking objects:  48% (39/80)   Unpacking objects:  50% (40/80)   Unpacking objects:  51% (41/80)   Unpacking objects:  52% (42/80)   Unpacking objects:  53% (43/80)   Unpacking objects:  55% (44/80)   Unpacking objects:  56% (45/80)   Unpacking objects:  57% (46/80)   Unpacking objects:  58% (47/80)   Unpacking objects:  60% (48/80)   Unpacking objects:  61% (49/80)   Unpacking objects:  62% (50/80)   Unpacking objects:  63% (51/80)   Unpacking objects:  65% (52/80)   Unpacking objects:  66% (53/80)   Unpacking objects:  67% (54/80)   Unpacking objects:  68% (55/80)   Unpacking objects:  70% (56/80)   Unpacking objects:  71% (57/80)   Unpacking objects:  72% (58/80)   Unpacking objects:  73% (59/80)   Unpacking objects:  75% (60/80)   Unpacking objects:  76% (61/80)   Unpacking objects:  77% (62/80)   Unpacking objects:  78% (63/80)   Unpacking objects:  80% (64/80)   Unpacking objects:  81% (65/80)   Unpacking objects:  82% (66/80)   remote: Total 80 (delta 0), reused 0 (delta 0), pack-reused 80[K
-Unpacking objects:  83% (67/80)   Unpacking objects:  85% (68/80)   Unpacking objects:  86% (69/80)   Unpacking objects:  87% (70/80)   Unpacking objects:  88% (71/80)   Unpacking objects:  90% (72/80)   Unpacking objects:  91% (73/80)   Unpacking objects:  92% (74/80)   Unpacking objects:  93% (75/80)   Unpacking objects:  95% (76/80)   Unpacking objects:  96% (77/80)   Unpacking objects:  97% (78/80)   Unpacking objects:  98% (79/80)   Unpacking objects: 100% (80/80)   Unpacking objects: 100% (80/80), done.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents]1;~/Documents[0m[27m[24m[J[01;32m➜  [36mDocuments[00m [K[?1h=[?2004hggit checkout [7mhttps://github.com/Lumaria/Projet-WEBAGENCY.git[27m[47D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mL[27mu[27mm[27ma[27mr[27mi[27ma[27m/[27mP[27mr[27mo[27mj[27me[27mt[27m-[27mW[27mE[27mB[27mA[27mG[27mE[27mN[27mC[27mY[27m.[27mg[27mi[27m                                               [7m9481b5d03fe781d6bc87171ee16252c40b85aee5[27m[40D[27m9[27m4[27m8[27m1[27mb[27m5[27md[27m0[27m3[27mf[27me[27m7[27m8[27m1[27md[27m6[27mb[27mc[27m8[27m7[27m1[27m7[27m1[27me[27me[27m1[27m6[27m2[27m5[27m2[27mc[27m4[27m0[27mb[27m8[27m5[27ma[27me[27me[27m5[?1l>[?2004l
-]2;git checkout 9481b5d03fe781d6bc87171ee16252c40b85aee5]1;gitfatal: Not a git repository (or any of the parent directories): .git
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents]1;~/Documents[0m[27m[24m[J[01;31m➜  [36mDocuments[00m [K[?1h=[?2004hq qqlix[1m/[0m[0m [?1l>[?2004l
-]2;qlix]1;qlix[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/qlix]1;..ocuments/qlix[0m[27m[24m[J[01;32m➜  [36mqlix[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hqlixgit checkout 9481b5d03fe781d6bc87171ee16252c40b85aee5[?1l>[?2004l
-]2;git checkout 9481b5d03fe781d6bc87171ee16252c40b85aee5]1;gitNote: checking out '9481b5d03fe781d6bc87171ee16252c40b85aee5'.
-
-You are in 'detached HEAD' state. You can look around, make experimental
-changes and commit them, and you can discard any commits you make in this
-state without impacting any branches by performing another checkout.
-
-If you want to create a new branch to retain commits you create, you may
-do so (now or later) by using -b with the checkout command again. Example:
-
-  git checkout -b <new-branch-name>
-
-HEAD is now at 9481b5d... Merge branch 'master' of https://github.com/Lumaria/Projet-WEBAGENCY
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/qlix]1;..ocuments/qlix[0m[27m[24m[J[01;32m➜  [36mqlix[00m [01;34mgit:([31m9481b5d[34m)[00m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls -G]1;lsIndex.html [1m[36mfonts[39;49m[0m      [1m[36mimage[39;49m[0m      style.css
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/qlix]1;..ocuments/qlix[0m[27m[24m[J[01;32m➜  [36mqlix[00m [01;34mgit:([31m9481b5d[34m)[00m [K[?1h=[?2004hoopen .[?1l>[?2004l
-]2;open .]1;open[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/qlix]1;..ocuments/qlix[0m[27m[24m[J[01;32m➜  [36mqlix[00m [01;34mgit:([31m9481b5d[34m)[00m [K[?1h=[?2004hggit checkout 9481b5d03fe781d6bc87171ee16252c40b85aee5                                        [7m3e673b1026faaf200d4e5b2b70ce9190ae50dbef[27m[40D[27m3[27me[27m6[27m7[27m3[27mb[27m1[27m0[27m2[27m6[27mf[27ma[27ma[27mf[27m2[27m0[27m0[27md[27m4[27me[27m5[27mb[27m2[27mb[27m7[27m0[27mc[27me[27m9[27m1[27m9[27m0[27ma[27me[27m5[27m0[27md[27mb[27me[27mf[?1l>[?2004l
-]2;git checkout 3e673b1026faaf200d4e5b2b70ce9190ae50dbef]1;gitPrevious HEAD position was 9481b5d... Merge branch 'master' of https://github.com/Lumaria/Projet-WEBAGENCY
-HEAD is now at 3e673b1... update 07/11/2018
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/qlix]1;..ocuments/qlix[0m[27m[24m[J[01;32m➜  [36mqlix[00m [01;34mgit:([31m3e673b1[34m)[00m [K[?1h=[?2004hoopen .[?1l>[?2004l
-]2;open .]1;open[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/qlix]1;..ocuments/qlix[0m[27m[24m[J[01;32m➜  [36mqlix[00m [01;34mgit:([31m3e673b1[34m)[00m [K[?1h=[?2004hopen .git checkout 3e673b1026faaf200d4e5b2b70ce9190ae50dbef                                                 g  ccd[?1l>[?2004l
-]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~]1;~[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hddoc
-[J[1;31mDocuments[0m/                     [Jdocker                         [Jdocker-compose                 [Jdocker-credential-osxkeychain  [Jdocker-machine                 [Jdocker.backup                [J[A[0m[27m[24m[5Cdoc[KD[2Cuments[1m/[0m
-[J[7mDocuments/                   [0m  [Jdocker                         [Jdocker-compose                 [Jdocker-credential-osxkeychain  [Jdocker-machine                 [Jdocker.backup                [J[A[0m[27m[24m[5CDocuments[1m/[0m[K
-[7mDocuments/                   [0m  [7mDocuments/                   [0m  [A[0m[27m[24m[5CDocuments[1m/[0m[K
-[J[A[15C[0m/Fft_
-[J[J[1;31mft_malloc[0m/  [J[1;31mft_nm[0m/    [J[A[0m[27m[24m[5CDocuments/ft_[Kmalloc[1m/[0m
-[J[7mft_malloc/[0m  [J[1;31mft_nm[0m/    [J[A[0m[27m[24m[5CDocuments/ft_malloc[1m/[0m[K
-[7mft_malloc/[0m  [7mft_malloc/[0m  [A[0m[27m[24m[5CDocuments/ft_malloc[1m/[0m[Knm[1m/[0m   [0m 
-[12C[7mft_nm/    [0m[1;31mft_malloc[0m/  [A[0m[27m[24m[5CDocuments/ft_nm[1m/[0m[K
-[J[A[21C[0m [?1l>[?2004l
-[J]2;Documents/ft_nm]1;Documents/ft_nm[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hg ppython3.7 sricpt.py[13D --version   [10D3.7 sricpt.py[1Csricpt.py[9Dcsricpt.py[9Drsricpt.py[9Disricpt.py[9Dpsricpt.py[9Dtsricpt.py[9D/sricpt.py[9D[9C[1m [0m[0m [?1l>[?2004l
-]2;python3.7 script/sricpt.py]1;python3.7x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-x
-ERROR FILE
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython3.7 script/sricpt.py[?1l>[?2004l
-]2;python3.7 script/sricpt.py]1;python3.7/bin/cat
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/echo
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/launchctl
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/df
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/pwd
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/test
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/csh
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/wait4path
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/unlink
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/sleep
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-/bin/stty
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/date
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/ed
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/expr
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/pax
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/bash
-feedfacf
-/bin/kill
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-feedfacf
-0
-0
-0
-c
-0
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/sh
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/domainname
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/ps
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/link
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/tcsh
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/dd
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/mkdir
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/ksh
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/hostname
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/rmdir
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/mv
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/ln
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/ls
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/cp
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/sync
-/bin/zsh
-feedfacf
-c
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-/bin/chmod
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-feedfacf
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-ec
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-/bin/[
-/bin/rm
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-feedfacf
-c
-e
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython3.7 script/sricpt.py[26DDocuments/ft_nm           [11D[15Dcd             [13DDocuments/ft_nm             D  ggit checkout 3e673b1026faaf200d4e5b2b70ce9190ae50dbef[40D9481b5d03fe781d6bc87171ee16252c40b85aee5[53Dgcl https://github.com/Lumaria/Projet-WEBAGENCY.git qlix[54Dc srcs/nm.c -o nm                                     [37D[19Dgit clone https://github.com/RestoutMaxime/WebAgency.git mrestout[65Dgcc srcs/nm.c -o nm                                              [46D[?1l>[?2004l
-]2;gcc srcs/nm.c -o nm]1;gcc[1msrcs/nm.c:50:9: [0m[0;1;35mwarning: [0m[1mimplicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration][0m
-        printf("%x\n", magic);
-[0;1;32m        ^
-[0m[1msrcs/nm.c:50:9: [0m[0;1;30mnote: [0minclude the header <stdio.h> or explicitly provide a declaration for 'printf'[0m
-1 warning generated.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hppython3.7 script/sricpt.py[?1l>[?2004l
-]2;python3.7 script/sricpt.py]1;python3.7/bin/cat
-feedfacf
-/bin/echo
-feedfacf
-/bin/launchctl
-feedfacf
-/bin/df
-feedfacf
-/bin/pwd
-feedfacf
-/bin/test
-feedfacf
-/bin/csh
-feedfacf
-/bin/wait4path
-/bin/unlink
-feedfacf
-/bin/sleep
-feedfacf
-/bin/stty
-feedfacf
-/bin/date
-feedfacf
-/bin/ed
-feedfacf
-/bin/expr
-feedfacf
-/bin/pax
-feedfacf
-/bin/bash
-feedfacf
-/bin/kill
-feedfacf
-/bin/sh
-feedfacf
-/bin/domainname
-feedfacf
-/bin/ps
-feedfacf
-/bin/link
-feedfacf
-/bin/tcsh
-feedfacf
-/bin/dd
-feedfacf
-/bin/mkdir
-feedfacf
-/bin/ksh
-feedfacf
-/bin/hostname
-feedfacf
-/bin/rmdir
-feedfacf
-/bin/mv
-feedfacf
-/bin/ln
-feedfacf
-/bin/ls
-feedfacf
-/bin/cp
-feedfacf
-/bin/sync
-/bin/zsh
-feedfacf
-/bin/chmod
-feedfacf
-/bin/rm
-feedfacf
-/bin/[
-feedfacf
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython3.7 script/sricpt.py[?1l>[?2004l
-]2;python3.7 script/sricpt.py]1;python3.7Traceback (most recent call last):
-  File "script/sricpt.py", line 6, in <module>
-    subprocess.Popen(['./nm', x])
-NameError: name 'x' is not defined
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;31m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggcc srcs/nm.c -o nm[?1l>[?2004l
-]2;gcc srcs/nm.c -o nm]1;gcc[1msrcs/nm.c:50:9: [0m[0;1;35mwarning: [0m[1mimplicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration][0m
-        printf("%x\n", magic);
-[0;1;32m        ^
-[0m[1msrcs/nm.c:50:9: [0m[0;1;30mnote: [0minclude the header <stdio.h> or explicitly provide a declaration for 'printf'[0m
-1 warning generated.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hppython3.7 script/sricpt.py[?1l>[?2004l
-]2;python3.7 script/sricpt.py]1;python3.7feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hpython3.7 script/sricpt.py[26Dgcc srcs/nm.c -o nm       [?1l>[?2004l
-]2;gcc srcs/nm.c -o nm]1;gcc[1msrcs/nm.c:50:9: [0m[0;1;35mwarning: [0m[1mimplicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration][0m
-        printf("%x\n", magic);
-[0;1;32m        ^
-[0m[1msrcs/nm.c:50:9: [0m[0;1;30mnote: [0minclude the header <stdio.h> or explicitly provide a declaration for 'printf'[0m
-1 warning generated.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgcc srcs/nm.c -o nm[19Dpython3.7 script/sricpt.py[?1l>[?2004l
-]2;python3.7 script/sricpt.py]1;python3.7feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-32x
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-32x
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggcc srcs/nm.c -o nm[?1l>[?2004l
-]2;gcc srcs/nm.c -o nm]1;gcc[1msrcs/nm.c:50:9: [0m[0;1;35mwarning: [0m[1mimplicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration][0m
-        printf("%x\n", magic);
-[0;1;32m        ^
-[0m[1msrcs/nm.c:50:9: [0m[0;1;30mnote: [0minclude the header <stdio.h> or explicitly provide a declaration for 'printf'[0m
-1 warning generated.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgcc srcs/nm.c -o nm[19Dpython3.7 script/sricpt.py[?1l>[?2004l
-]2;python3.7 script/sricpt.py]1;python3.7feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-mama->bebafeca
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-mama->bebafeca
-feedfacf
-feedfacf
-feedfacf
-feedfacf
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggcc srcs/nm.c -o nm[?1l>[?2004l
-]2;gcc srcs/nm.c -o nm]1;gcc[1msrcs/nm.c:50:9: [0m[0;1;35mwarning: [0m[1mimplicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration][0m
-        printf("%x\n", magic);
-[0;1;32m        ^
-[0m[1msrcs/nm.c:50:9: [0m[0;1;30mnote: [0minclude the header <stdio.h> or explicitly provide a declaration for 'printf'[0m
-1 warning generated.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgcc srcs/nm.c -o nm[19Dpython3.7 script/sricpt.py[?1l>[?2004l
-]2;python3.7 script/sricpt.py]1;python3.7/bin/cat   feedfacf
-/bin/echo   feedfacf
-/bin/launchctl   feedfacf
-/bin/df   feedfacf
-/bin/pwd   feedfacf
-/bin/test   feedfacf
-/bin/csh   feedfacf
-/bin/wait4path   mama->bebafeca
-/bin/unlink   feedfacf
-/bin/sleep   feedfacf
-/bin/stty   feedfacf
-/bin/date   feedfacf
-/bin/ed   feedfacf
-/bin/expr   feedfacf
-/bin/pax   feedfacf
-/bin/bash   feedfacf
-/bin/kill   feedfacf
-/bin/sh   feedfacf
-/bin/domainname   feedfacf
-/bin/ps   feedfacf
-/bin/link   feedfacf
-/bin/tcsh   feedfacf
-/bin/dd   feedfacf
-/bin/mkdir   feedfacf
-/bin/ksh   feedfacf
-/bin/hostname   feedfacf
-/bin/rmdir   feedfacf
-/bin/mv   feedfacf
-/bin/ln   feedfacf
-/bin/ls   feedfacf
-/bin/cp   feedfacf
-/bin/sync   mama->bebafeca
-/bin/zsh   feedfacf
-/bin/chmod   feedfacf
-/bin/rm   feedfacf
-/bin/[   feedfacf
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggcc srcs/nm.c -o nm[?1l>[?2004l
-]2;gcc srcs/nm.c -o nm]1;gcc[1msrcs/nm.c:54:9: [0m[0;1;35mwarning: [0m[1mimplicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration][0m
-        printf("mama->%x\n", magic);
-[0;1;32m        ^
-[0m[1msrcs/nm.c:54:9: [0m[0;1;30mnote: [0minclude the header <stdio.h> or explicitly provide a declaration for 'printf'[0m
-1 warning generated.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgcc srcs/nm.c -o nm[19Dpython3.7 script/sricpt.py[?1l>[?2004l
-]2;python3.7 script/sricpt.py]1;python3.7/bin/cat   /bin/echo   /bin/launchctl   /bin/df   /bin/pwd   /bin/test   /bin/csh   /bin/wait4path   mama->bebafeca
-/bin/unlink   /bin/sleep   /bin/stty   /bin/date   /bin/ed   /bin/expr   /bin/pax   /bin/bash   /bin/kill   /bin/sh   /bin/domainname   /bin/ps   /bin/link   /bin/tcsh   /bin/dd   /bin/mkdir   /bin/ksh   /bin/hostname   /bin/rmdir   /bin/mv   /bin/ln   /bin/ls   /bin/cp   /bin/sync   mama->bebafeca
-/bin/zsh   /bin/chmod   /bin/rm   /bin/[   [1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggcc srcs/nm.c -o nm[?1l>[?2004l
-]2;gcc srcs/nm.c -o nm]1;gcc[1msrcs/nm.c:50:9: [0m[0;1;35mwarning: [0m[1mimplicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration][0m
-        printf("%x\n", magic);
-[0;1;32m        ^
-[0m[1msrcs/nm.c:50:9: [0m[0;1;30mnote: [0minclude the header <stdio.h> or explicitly provide a declaration for 'printf'[0m
-[1msrcs/nm.c:56:22: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'FAT_CIGAM'[0m
-    else if(magic == FAT_CIGAM)
-[0;1;32m                     ^
-[0m1 warning and 1 error generated.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;31m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hoopen [7m/usr/include/mach-o/fat.h[27m[25D[27m/[27mu[27ms[27mr[27m/[27mi[27mn[27mc[27ml[27mu[27md[27me[27m/[27mm[27ma[27mc[27mh[27m-[27mo[27m/[27mf[27ma[27mt[27m.[27mh[?1l>[?2004l
-]2;open /usr/include/mach-o/fat.h]1;open[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;ahantar@MacBook-Air-de-AHANTAR: ~/Documents/ft_nm]1;..cuments/ft_nm[0m[27m[24m[J[01;32m➜  [36mft_nm[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h

@@ -3,14 +3,15 @@
 void	ft_nm(void	*ptr)
 {
 	int	magic;
-
+	t_print	*print;
 	magic = *(int *)ptr;
+//	printf("%x\n", magic);
 //	if (magic == MH_MAGIC)
 //		handle_32(ptr);
 	 if (magic == MH_MAGIC_64)
-		handle_64(ptr);
-//	else if (magic ==  FAT_MAGIC)
-//		handle_fat(ptr);	
+		print = handle_64(ptr);
+	else if (magic ==  FAT_MAGIC || magic == FAT_CIGAM)
+		handle_fat(ptr);	
 }
 
 char	*read_file(char *arg)
