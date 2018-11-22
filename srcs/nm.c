@@ -1,17 +1,27 @@
 #include "../include/nm.h"
 
-void	ft_nm(void	*ptr)
+
+void	ft_nm(void	*ptr, t_info info)
 {
 	int	magic;
-	t_print	*print;
+	t_section	*print;
+
 	magic = *(int *)ptr;
-//	printf("%x\n", magic);
 //	if (magic == MH_MAGIC)
 //		handle_32(ptr);
-	 if (magic == MH_MAGIC_64)
-		print = handle_64(ptr);
+	if (magic == MH_MAGIC_64)
+	{
+		name_sect_64(ptr, &info);
+		handle_64(ptr, &info);
+	}
 	else if (magic ==  FAT_MAGIC || magic == FAT_CIGAM)
-		handle_fat(ptr);	
+		handle_fat(ptr, info);
+	print = info.section;
+	while (print)
+	{
+		printf("%s\n", print->str);
+		print = print->next;
+	}
 }
 
 char	*read_file(char *arg)
@@ -29,10 +39,20 @@ char	*read_file(char *arg)
 	return ptr;
 }
 
+t_info	init_struct(void)
+{
+	t_info		info;
+	
+	info.section = NULL;
+	info.print = NULL;
+	return (info);
+}
+
 int main(int argc, char **argv)
 {
-	void *ptr;
-	int i;
+	void	*ptr;
+	int	i;
+	t_info	info;
 	
 	i = 1;
 	while (i <= argc - 1)
@@ -52,7 +72,8 @@ int main(int argc, char **argv)
 				printf("ERROR FILE\n");
 				return (0);
 			}
-			ft_nm(ptr);
+			info = init_struct();
+			ft_nm(ptr, info);
 		}
 		i++;
 	}

@@ -11,7 +11,7 @@ int     swap_bit(int nb)
     return (ret);
 }
 
-void    handle_fat(void *ptr)
+void    handle_fat(void *ptr, t_info info)
 {
 	struct fat_header	*header;
 	int			nb_arch;
@@ -25,9 +25,8 @@ void    handle_fat(void *ptr)
 	while (i < nb_arch)
 	{
 		if (swap_bit(arch->cputype) == CPU_TYPE_X86_64)
-			ft_nm(ptr + swap_bit(arch->offset));
+			ft_nm(ptr + swap_bit(arch->offset), info);
 		arch = (void*)arch + sizeof(arch);
 		i++;	
 	}
-	printf("%d\n", nb_arch);
 }

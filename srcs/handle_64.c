@@ -1,6 +1,6 @@
 #include "../include/nm.h"
 
-t_print	*print_output(struct symtab_command *sym, void *ptr)
+int	get_info_64(struct symtab_command *sym, void *ptr, t_info *info)
 {
 	int		i;
 	char		*string_table;
@@ -10,7 +10,7 @@ t_print	*print_output(struct symtab_command *sym, void *ptr)
 
 	i = 0;
 	if (!(print = malloc(sizeof(t_print))))
-		return NULL;
+		return 0;
 	tmp = print;
 	tmp->next = NULL;
 	string_table = ptr + sym->stroff;
@@ -18,21 +18,22 @@ t_print	*print_output(struct symtab_command *sym, void *ptr)
 	while (i < sym->nsyms)
 	{
 		tmp->str = string_table + array[i].n_un.n_strx;
-		printf("%x  %s\n", string_table + array[i].n_value, tmp->str);
+		tmp->val = array[i].n_value;
 		if (i == sym->nsyms - 1)
 			tmp->next = NULL;
 		else
 		{
 			if (!(tmp->next = malloc(sizeof(t_print))))
-				return NULL;
+				return 0;
 		}	
 		tmp = tmp->next;
 		i++;
 	}
-	return (print);
+	info->print = print;
+	return 1;
 }
 
-t_print	*handle_64(void *ptr)
+int	handle_64(void *ptr, t_info *info)
 {
 	struct mach_header_64 *header;
 	struct load_command *lc;
@@ -47,10 +48,9 @@ t_print	*handle_64(void *ptr)
 		if (lc->cmd == LC_SYMTAB)
 		{
 			sym = (struct symtab_command*)lc;
-			return (print_output(sym, ptr));
+			get_info_64(sym, ptr, info);
 		}
 		lc = (void*)lc + lc->cmdsize;
 		i++;
 	}
-	return (NULL);
 }
