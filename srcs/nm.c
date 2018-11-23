@@ -4,7 +4,7 @@
 void	ft_nm(void	*ptr, t_info info)
 {
 	int	magic;
-	t_section	*print;
+	t_print	*print;	
 
 	magic = *(int *)ptr;
 //	if (magic == MH_MAGIC)
@@ -16,10 +16,10 @@ void	ft_nm(void	*ptr, t_info info)
 	}
 	else if (magic ==  FAT_MAGIC || magic == FAT_CIGAM)
 		handle_fat(ptr, info);
-	print = info.section;
+	print = info.print;
 	while (print)
 	{
-		printf("%s\n", print->str);
+		printf("%c %s\n", print->type, print->str);
 		print = print->next;
 	}
 }

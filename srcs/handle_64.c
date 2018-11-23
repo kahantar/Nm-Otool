@@ -19,6 +19,7 @@ int	get_info_64(struct symtab_command *sym, void *ptr, t_info *info)
 	{
 		tmp->str = string_table + array[i].n_un.n_strx;
 		tmp->val = array[i].n_value;
+		tmp->type = type(info, array[i].n_type, array[i].n_sect, array[i].n_value);
 		if (i == sym->nsyms - 1)
 			tmp->next = NULL;
 		else

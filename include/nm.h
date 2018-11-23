@@ -17,7 +17,7 @@ typedef struct s_info	{
 
 typedef struct s_print {
 	char		*str;
-	char		c;
+	unsigned char	type;
 	unsigned long	val;
 	struct s_print	*next;
 }			t_print;
@@ -33,5 +33,7 @@ void    handle_fat(void *ptr, t_info info);
 int	handle_64(void *ptr, t_info *info);
 void    handle_32(void *ptr);
 int	name_sect_64(void *ptr, t_info *info);
+unsigned char	type(t_info *info, unsigned char c, unsigned char n, unsigned long val);
+
 
 #endif

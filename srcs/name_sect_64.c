@@ -4,19 +4,22 @@
 int	parse_section_64(struct section_64 *section, t_info *info)
 {
 	t_section	*info_section;
+	t_section	*sect;
 	
+	sect = info->section;
 	if (!(info_section = malloc(sizeof(t_section))))
 		return (0);
 	info_section->str = section->sectname;
 	info_section->next = NULL;
-	if (info->section == NULL)
-		info->section = info_section;
+	if (sect == NULL){
+		sect = info_section;
+		info->section = sect;
+}
 	else
 	{
-		while (info->section->next)
-			info->section = info->section->next;
-		info->section->next = info_section;
-		printf("%s\n", info->section->next->str);
+		while (sect->next)
+			sect = sect->next;
+		sect->next = info_section;
 	}
 	return (1);
 }
