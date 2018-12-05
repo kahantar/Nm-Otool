@@ -4,6 +4,7 @@ GREY = \033[38;5;60m
 RED = \033[38;5;9m
 END = \033[0m
 ##################################_COMPILATION_#################################
+BIN = -m32
 NAME = nm
 CC = clang
 FLAG = -Weverything -g
@@ -11,9 +12,14 @@ FLAG = -Wall -Wextra -Werror -g
 LFT = ./libft/libft.a
 SRCS =		srcs/nm.c\
 		srcs/handle_64.c\
+		srcs/handle_32.c\
 		srcs/name_sect_64.c\
+		srcs/name_sect_32.c\
 		srcs/type.c\
-		srcs/handle_fat.c
+		srcs/handle_fat.c\
+		srcs/sort_ascii.c\
+		srcs/print_nm.c\
+		srcs/ft_itoa_base.c
 
 OBJS = $(SRCS:.c=.o)
 

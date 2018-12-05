@@ -1,27 +1,30 @@
 #include "../include/nm.h"
 
 
-void	ft_nm(void	*ptr, t_info info)
+int	ft_nm(void	*ptr, t_info info, char *name)
 {
 	int	magic;
 	t_print	*print;	
 
 	magic = *(int *)ptr;
-//	if (magic == MH_MAGIC)
-//		handle_32(ptr);
+	if (magic == MH_MAGIC)
+	{
+		if (name_sect_32(ptr, &info) == -1 || handle_32(ptr, &info) == -1)
+			return (-1);
+	}
 	if (magic == MH_MAGIC_64)
 	{
-		name_sect_64(ptr, &info);
-		handle_64(ptr, &info);
+		if (name_sect_64(ptr, &info) == -1 || handle_64(ptr, &info) == -1)
+			return (-1);
 	}
 	else if (magic ==  FAT_MAGIC || magic == FAT_CIGAM)
-		handle_fat(ptr, info);
-	print = info.print;
-	while (print)
 	{
-		printf("%c %s\n", print->type, print->str);
-		print = print->next;
+		handle_fat(ptr, info, name);
+		return (0);
 	}
+	print = info.print;
+	print_nm(info.print, name);
+	return (0);
 }
 
 char	*read_file(char *arg)
@@ -42,10 +45,25 @@ char	*read_file(char *arg)
 t_info	init_struct(void)
 {
 	t_info		info;
-	
+
 	info.section = NULL;
 	info.print = NULL;
 	return (info);
+}
+
+int	parse_one(char *name)
+{
+	t_info	info;
+	void	*ptr;
+	
+	if (!(ptr = read_file(name)))
+	{
+		printf("ERROR FILE\n");
+		return (-1);
+	}
+	info = init_struct();
+	ft_nm(ptr, info, NULL);
+	return (0);
 }
 
 int main(int argc, char **argv)
@@ -53,29 +71,26 @@ int main(int argc, char **argv)
 	void	*ptr;
 	int	i;
 	t_info	info;
-	
-	i = 1;
-	while (i <= argc - 1)
+
+	if (argc == 1)
+		parse_one("a.out");
+	else if (argc == 2)
+		parse_one(argv[1]);
+	else
 	{
-		if (argc == 1)
-		{
-			if (!(ptr = read_file("a.aout")))
-			{
-				printf("ERROR FILE\n");
-				return (0);
-			}
-		}
-		else
+		i = 1;
+		while (i <= argc - 1)
 		{
 			if (!(ptr = read_file(argv[i])))
-			{
 				printf("ERROR FILE\n");
-				return (0);
+			else
+			{
+				info = init_struct();
+				if (ft_nm(ptr, info, argv[i]) == -1)
+					return (0);
 			}
-			info = init_struct();
-			ft_nm(ptr, info);
+			i++;
 		}
-		i++;
 	}
 	return (0);
 }

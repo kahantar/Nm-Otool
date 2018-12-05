@@ -22,18 +22,23 @@ typedef struct s_print {
 	struct s_print	*next;
 }			t_print;
 
-typedef struct s_section {
+typedef struct s_sec {
 	char			*str;
-	struct s_section	*next;
-}			t_section;
+	struct s_sec	*next;
+}			t_sec;
 
-void    ft_nm(void *ptr, t_info info);
+int	main(int argc, char **argv);
+int    ft_nm(void *ptr, t_info info, char *name);
 char    *read_file(char *arg);
-void    handle_fat(void *ptr, t_info info);
+void    handle_fat(void *ptr, t_info info, char *name);
 int	handle_64(void *ptr, t_info *info);
-void    handle_32(void *ptr);
+int    handle_32(void *ptr, t_info *info);
 int	name_sect_64(void *ptr, t_info *info);
 unsigned char	type(t_info *info, unsigned char c, unsigned char n, unsigned long val);
+void	sort_ascii(t_print **print, t_print *tmp);
+void	print_nm(t_print *print, char *name);
+void    ft_itoa_base(unsigned long n, int base);
+int	name_sect_32(void *ptr, t_info *info);
 
 
 #endif

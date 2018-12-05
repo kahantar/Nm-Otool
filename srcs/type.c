@@ -3,7 +3,7 @@
 
 unsigned char	search_in_sect(t_info *info, unsigned char n)
 {
-	t_section	*section;
+	t_sec	*section;
 	unsigned char	i;
 
 	section = info->section;
@@ -21,27 +21,34 @@ unsigned char	search_in_sect(t_info *info, unsigned char n)
 			else
 				return ('s');
 		}
+		i++;
 		section = section->next;	
 	}
 }
 
 unsigned char	type(t_info *info, unsigned char c, unsigned char n, unsigned long val)
 {
+	unsigned char x;
+
+	x = c;
 	if ((c & N_TYPE) == N_UNDF)
 	{
-		c = 'u';
+		x = 'u';
 		if (val != 0)
-			c = 'c';
+			x = 'c';
 	}
 	else if ((c & N_TYPE) == N_PBUD)
-		c = 'u';
+		x = 'u';
 	else if ((c & N_TYPE) == N_ABS)
-		c = 'a';
+		x = 'a';
 	else if ((c & N_TYPE) == N_SECT)
-		c = search_in_sect(info, n);
+		x = search_in_sect(info, n);
 	else if ((c & N_TYPE) == N_INDR)
-		c = 'i';
+		x = 'i';
 	else
-		c = '?';
-	return (c);
+		x = '?';
+	if ((c & N_EXT) && x != '?')
+		x = ft_toupper(x);
+	return (x);
 }
+

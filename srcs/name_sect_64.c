@@ -3,12 +3,12 @@
 
 int	parse_section_64(struct section_64 *section, t_info *info)
 {
-	t_section	*info_section;
-	t_section	*sect;
+	t_sec	*info_section;
+	t_sec	*sect;
 	
 	sect = info->section;
-	if (!(info_section = malloc(sizeof(t_section))))
-		return (0);
+	if (!(info_section = malloc(sizeof(t_sec))))
+		return (-1);
 	info_section->str = section->sectname;
 	info_section->next = NULL;
 	if (sect == NULL){
@@ -21,7 +21,7 @@ int	parse_section_64(struct section_64 *section, t_info *info)
 			sect = sect->next;
 		sect->next = info_section;
 	}
-	return (1);
+	return (0);
 }
 
 int	parse_segment_64(void *lc, t_info *info)
@@ -35,11 +35,12 @@ int	parse_segment_64(void *lc, t_info *info)
 	section = (void*)segment + sizeof(*segment);
 	while (i < segment->nsects)
 	{
-		parse_section_64(section, info);
+		if (parse_section_64(section, info) == -1)
+			return (-1);
 		section = (void*)section + sizeof(*section);
 		i++;
 	}
-	return (1);	
+	return (0);	
 }
 
 int	name_sect_64(void *ptr, t_info *info)
@@ -54,9 +55,12 @@ int	name_sect_64(void *ptr, t_info *info)
 	while (i < header->ncmds)
 	{
 		if (lc->cmd == LC_SEGMENT_64)
-			parse_segment_64(lc, info);	
+		{
+			if (parse_segment_64(lc, info) == -1)
+				return (-1);
+		}
 		lc = (void*)lc + lc->cmdsize;
 		i++;
 	}
-	return (1);	
+	return (0);	
 }
