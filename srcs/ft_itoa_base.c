@@ -8,7 +8,7 @@ void	print_zero(int i)
 		i--;
 	}
 }
-void    ft_base(size_t n, int base, int i)
+void    ft_base(size_t n, int base, int i, int bit)
 {
 	char str[i];
 
@@ -32,11 +32,11 @@ void    ft_base(size_t n, int base, int i)
 			n = n / base;
 		}
 	}
-	print_zero(16 - ft_strlen(str));
+	print_zero(bit - ft_strlen(str));
 	ft_putstr(str);
 }
 
-void    ft_itoa_base(unsigned long n, int base)
+void    ft_itoa_base(unsigned long n, int base, int bit)
 {
 	unsigned long		x;
 	int			i;
@@ -48,5 +48,5 @@ void    ft_itoa_base(unsigned long n, int base)
 		x = x / base;
 		i++;
 	}
-	(ft_base(n, base, i));
+	(ft_base(n, base, i, bit));
 }

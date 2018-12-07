@@ -52,7 +52,9 @@ int	name_sect_32(void *ptr, t_info *info)
 
 	i = 0;
 	header = ptr;
-	lc = ptr + sizeof(*header);
+	if ((lc = incrementing(ptr, info, sizeof(*header), sizeof(lc))) == NULL)
+		return (-1);
+	//lc = ptr + sizeof(*header);
 	while (i < header->ncmds)
 	{
 		if (lc->cmd == LC_SEGMENT)

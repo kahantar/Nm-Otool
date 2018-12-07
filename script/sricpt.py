@@ -1,8 +1,13 @@
 import os
 import subprocess
+import difflib
 
-fichier = os.listdir('/usr/bin')
-for i in fichier:
-    x = '/usr/bin/' + i
-    subprocess.Popen(['./nm', x])
+lst = os.listdir('/bin')
+for i in lst:
+	x = '/bin/' + i
+	subprocess.Popen(['./nm', x]) > fichier
+	subprocess.Popen(['nm', x]) > fichier2
+	#d = difflib.Differ()
+	#diff = d.compare(fichier, fichier2)
+	#print '\n'.join(diff)
 	

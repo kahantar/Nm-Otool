@@ -32,12 +32,16 @@ int	parse_segment_64(void *lc, t_info *info)
 
 	i = 0;
 	segment = lc;
-	section = (void*)segment + sizeof(*segment);
+	if ((section = incrementing((void*)segment, info, sizeof(*segment), sizeof(section))) == NULL)
+		return (-1);
+	//section = (void*)segment + sizeof(*segment);
 	while (i < segment->nsects)
 	{
 		if (parse_section_64(section, info) == -1)
 			return (-1);
-		section = (void*)section + sizeof(*section);
+		if ((section = incrementing((void*)section, info, sizeof(*section), sizeof(section))) == NULL)
+			return (-1);
+		//section = (void*)section + sizeof(*section);
 		i++;
 	}
 	return (0);	
@@ -51,7 +55,9 @@ int	name_sect_64(void *ptr, t_info *info)
 
 	i = 0;
 	header = ptr;
-	lc = ptr + sizeof(*header);
+	if ((lc = incrementing(ptr, info, sizeof(*header), sizeof(lc))) == NULL)
+		return (-1);
+	//lc = ptr + sizeof(*header);
 	while (i < header->ncmds)
 	{
 		if (lc->cmd == LC_SEGMENT_64)
@@ -59,8 +65,11 @@ int	name_sect_64(void *ptr, t_info *info)
 			if (parse_segment_64(lc, info) == -1)
 				return (-1);
 		}
-		lc = (void*)lc + lc->cmdsize;
+		if ((lc = incrementing((void*)lc, info, lc->cmdsize, sizeof(lc))) == NULL)
+			return (-1);
+	//	lc = (void*)lc + lc->cmdsize;
 		i++;
 	}
+	info->start = 0;
 	return (0);	
 }

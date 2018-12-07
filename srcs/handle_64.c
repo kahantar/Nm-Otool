@@ -7,16 +7,27 @@ int	get_info_64(struct symtab_command *sym, void *ptr, t_info *info)
 	struct nlist_64 *array;
 	t_print		*print;
 	t_print		*tmp;
-
+	int		start
+;
 	i = 0;
 	print = NULL;
-	string_table = ptr + sym->stroff;
-	array = ptr + sym->symoff;
+	info->start = 0;
+	if ((array = incrementing(ptr, info, sym->symoff, sizeof(array))) == NULL)
+		return (-1);
+	info->start = 0;
+	if ((string_table = incrementing(ptr, info, sym->stroff, sizeof(string_table))) == NULL)
+		return (-1);
+	start = info->start;
+	//string_table = ptr + sym->stroff;
+	//array = ptr + sym->symoff;
 	while (i < sym->nsyms)
 	{
+		info->start = start;
 		if (!(tmp = malloc(sizeof(t_print))))
-			return 0;
-		tmp->str = string_table + array[i].n_un.n_strx;
+			return (-1);
+		if ((tmp->str = incrementing((void*)string_table, info, array[i].n_un.n_strx, 0)) == NULL)
+			return (-1);
+		//tmp->str = string_table + array[i].n_un.n_strx;
 		tmp->val = array[i].n_value;
 		tmp->type = type(info, array[i].n_type, array[i].n_sect, array[i].n_value);
 		tmp->next = NULL;
@@ -24,7 +35,7 @@ int	get_info_64(struct symtab_command *sym, void *ptr, t_info *info)
 		i++;
 	}
 	info->print = print;
-	return 1;
+	return (0);
 }
 
 int	handle_64(void *ptr, t_info *info)
@@ -35,7 +46,9 @@ int	handle_64(void *ptr, t_info *info)
 	struct symtab_command *sym;
 
 	header = (struct mach_header_64*)ptr;
-	lc = (void*)ptr + sizeof(*header);
+	if ((lc = incrementing(ptr, info, sizeof(*header), sizeof(lc))) == NULL)
+		return (-1);
+//	lc = (void*)ptr + sizeof(*header);
 	i = 0;
 	while (i < header->ncmds)
 	{
@@ -43,8 +56,12 @@ int	handle_64(void *ptr, t_info *info)
 		{
 			sym = (struct symtab_command*)lc;
 			get_info_64(sym, ptr, info);
+			return (0);
 		}
-		lc = (void*)lc + lc->cmdsize;
+		if ((lc = incrementing((void*)lc, info, lc->cmdsize, sizeof(lc))) == NULL)
+			return (-1);
+	//	lc = (void*)lc + lc->cmdsize;
 		i++;
 	}
+	return (0);
 }
