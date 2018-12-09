@@ -2,8 +2,8 @@
 
 for f in `ls /bin`
 do
-	./nm '/bin/'$f > fichier
-	nm '/bin/'$f > fichier2
+	./otool '/bin/'$f > fichier
+	otool -t '/bin/'$f > fichier2
 	x=$(diff fichier fichier2)
 	if [ "$x" != "" ]
 	then
