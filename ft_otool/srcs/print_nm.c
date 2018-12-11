@@ -1,5 +1,5 @@
 
-#include "../include/nm.h"
+#include "../include/otool.h"
 
 void	print_space(int nb)
 {
@@ -22,7 +22,7 @@ void	print_val(unsigned long val, unsigned char type, int bit)
 	ft_putchar(' ');
 }
 
-void	print_nm(t_print *print, char *name, int bit)
+void	print_otool(t_print *print, char *name, int bit)
 {
 	if (name != NULL)
 	{

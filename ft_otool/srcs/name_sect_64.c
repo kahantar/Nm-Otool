@@ -18,13 +18,13 @@ int	parse_section_64(struct section_64 *section, t_info *info, char *ptr)
 		if (y == 0)
 		{
 			ft_itoa_base(addr, 16);
-			ft_putstr("        ");
+			ft_putchar('\t');
 		}
 		ft_itoa_base((unsigned char)str[i], 0);
 		ft_putchar(' ');
 		i++;
 		y++;
-		if (y == 16)
+		if (y == 16 || i == section->size)
 		{
 			y = 0;
 			ft_putchar('\n');

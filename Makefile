@@ -28,7 +28,6 @@ SRCS_OTOOL =		ft_otool/srcs/otool.c\
 			ft_otool/srcs/incrementing.c\
 			ft_otool/srcs/handle_fat.c\
 			ft_otool/srcs/sort_ascii.c\
-			ft_otool/srcs/print_otool.c\
 			ft_otool/srcs/ft_itoa_base.c
 
 OBJS_NM = $(SRCS_NM:.c=.o)
