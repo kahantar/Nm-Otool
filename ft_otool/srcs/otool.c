@@ -1,10 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   otool.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kahantar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/12/25 07:15:15 by kahantar          #+#    #+#             */
+/*   Updated: 2018/12/25 09:59:06 by kahantar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../include/otool.h"
 
-
-int	ft_otool(void	*ptr, t_info info, char *name)
+int		ft_otool(void *ptr, t_info info, char *name)
 {
 	int	magic;
-	
+
 	magic = *(int *)ptr;
 	if (magic == MH_MAGIC)
 	{
@@ -18,7 +29,7 @@ int	ft_otool(void	*ptr, t_info info, char *name)
 		if (name_sect_64(ptr, &info) == -1)
 			return (-1);
 	}
-	else if (magic ==  FAT_MAGIC || magic == FAT_CIGAM)
+	else if (magic == FAT_MAGIC || magic == FAT_CIGAM)
 	{
 		handle_fat(ptr, info, name);
 		return (0);
@@ -28,18 +39,19 @@ int	ft_otool(void	*ptr, t_info info, char *name)
 
 char	*read_file(char *arg, int *len)
 {
-	int fd;
-	void *ptr;
-	struct stat buf;
+	int			fd;
+	void		*ptr;
+	struct stat	buf;
 
 	if ((fd = open(arg, O_RDONLY)) < 0)
-		return NULL;
+		return (NULL);
 	if ((fstat(fd, &buf)) < 0)
-		return NULL;
-	if ((ptr = mmap(0, buf.st_size, PROT_READ, MAP_PRIVATE, fd, 0)) == MAP_FAILED)
-		return NULL;
+		return (NULL);
+	if ((ptr = mmap(0, buf.st_size, PROT_READ,\
+			MAP_PRIVATE, fd, 0)) == MAP_FAILED)
+		return (NULL);
 	*len = buf.st_size;
-	return ptr;
+	return (ptr);
 }
 
 t_info	init_struct(int len)
@@ -53,28 +65,29 @@ t_info	init_struct(int len)
 	return (info);
 }
 
-int	parse_one(char *name)
+int		parse_one(char *name)
 {
 	t_info	info;
 	void	*ptr;
-	int	len;
+	int		len;
 
 	if (!(ptr = read_file(name, &len)))
 	{
-		printf("ERROR FILE\n");
+		ft_putstr("ERROR FILE\n");
 		return (-1);
 	}
 	info = init_struct(len);
 	ft_otool(ptr, info, NULL);
+	munmap(ptr, len);
 	return (0);
 }
 
-int main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	void	*ptr;
-	int	i;
+	int		i;
 	t_info	info;
-	int	len;
+	int		len;
 
 	if (argc == 1)
 		parse_one("a.out");
@@ -84,12 +97,13 @@ int main(int argc, char **argv)
 		while (i <= argc - 1)
 		{
 			if (!(ptr = read_file(argv[i], &len)))
-				printf("ERROR FILE\n");
+				ft_putstr("ERROR FILE\n");
 			else
 			{
 				info = init_struct(len);
 				if (ft_otool(ptr, info, argv[i]) == -1)
-					return (0);
+					return (free_map(ptr, len));
+				munmap(ptr, len);
 			}
 			i++;
 		}

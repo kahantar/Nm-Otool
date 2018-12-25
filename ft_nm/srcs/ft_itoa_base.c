@@ -1,5 +1,17 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa_base.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kahantar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/12/24 13:14:25 by kahantar          #+#    #+#             */
+/*   Updated: 2018/12/24 13:17:17 by kahantar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../include/nm.h"
+
 void	print_zero(int i)
 {
 	while (i > 0)
@@ -8,11 +20,12 @@ void	print_zero(int i)
 		i--;
 	}
 }
-void    ft_base(size_t n, int base, int i, int bit)
+
+void	ft_base(size_t n, int base, int i, int bit)
 {
 	char str[i];
 
-    str[i] = '\0';
+	str[i] = '\0';
 	if (base <= 10)
 	{
 		while (--i >= 0)
@@ -36,10 +49,10 @@ void    ft_base(size_t n, int base, int i, int bit)
 	ft_putstr(str);
 }
 
-void    ft_itoa_base(unsigned long n, int base, int bit)
+void	ft_itoa_base(unsigned long n, int base, int bit)
 {
-	unsigned long		x;
-	int			i;
+	unsigned long	x;
+	int				i;
 
 	i = 1;
 	x = n;

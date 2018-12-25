@@ -1,29 +1,40 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   type.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kahantar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/12/24 16:24:50 by kahantar          #+#    #+#             */
+/*   Updated: 2018/12/24 16:27:26 by kahantar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../include/nm.h"
 
-void		*incrementing(void *ptr, t_info *info, int nb, int size)
+void			*incrementing(void *ptr, t_info *info, int nb, int size)
 {
 	void	*ret;
+
 	if (info->start + nb + size > info->len)
 		return (NULL);
 	info->start = info->start + nb;
 	ret = ptr + nb;
-	//printf("%d\n", info->start);
 	return (ret);
 }
 
 unsigned char	search_in_sect(t_info *info, unsigned char n)
 {
-	t_sec	*section;
+	t_sec			*section;
 	unsigned char	i;
 
-	section = info->section;
+	section = (t_sec*)info->section;
 	i = 1;
 	while (section)
 	{
 		if (i == n)
 		{
-			if(!ft_strcmp(section->str, "__text"))
+			if (!ft_strcmp(section->str, "__text"))
 				return ('t');
 			else if (!ft_strcmp(section->str, "__data"))
 				return ('d');
@@ -33,11 +44,13 @@ unsigned char	search_in_sect(t_info *info, unsigned char n)
 				return ('s');
 		}
 		i++;
-		section = section->next;	
+		section = section->next;
 	}
+	return (0);
 }
 
-unsigned char	type(t_info *info, unsigned char c, unsigned char n, unsigned long val)
+unsigned char	type(t_info *info, unsigned char c, unsigned char n,\
+		unsigned long val)
 {
 	unsigned char x;
 
@@ -62,4 +75,3 @@ unsigned char	type(t_info *info, unsigned char c, unsigned char n, unsigned long
 		x = ft_toupper(x);
 	return (x);
 }
-

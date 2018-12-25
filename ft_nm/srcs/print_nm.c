@@ -1,3 +1,14 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_nm.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kahantar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/12/24 17:06:27 by kahantar          #+#    #+#             */
+/*   Updated: 2018/12/24 17:09:38 by kahantar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../include/nm.h"
 
@@ -12,7 +23,6 @@ void	print_space(int nb)
 
 void	print_val(unsigned long val, unsigned char type, int bit)
 {
-
 	if (val == 0 && type != 'T')
 		print_space(bit);
 	else
@@ -31,7 +41,7 @@ void	print_nm(t_print *print, char *name, int bit)
 		ft_putstr(":\n");
 	}
 	while (print)
-	{	
+	{
 		if (ft_strncmp("radr", print->str, 4) != 0)
 		{
 			print_val(print->val, print->type, bit);

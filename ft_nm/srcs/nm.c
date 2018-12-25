@@ -1,13 +1,23 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   nm.c                                               :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kahantar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/12/24 16:43:08 by kahantar          #+#    #+#             */
+/*   Updated: 2018/12/25 09:51:38 by kahantar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../include/nm.h"
 
-
-int	ft_nm(void	*ptr, t_info info, char *name)
+int		ft_nm(void *ptr, t_info info, char *name)
 {
-	int	magic;
-	t_print	*print;	
-	int	len;
-	int	bit;
-	
+	int		magic;
+	t_print	*print;
+	int		bit;
+
 	magic = *(int *)ptr;
 	if (magic == MH_MAGIC)
 	{
@@ -21,30 +31,31 @@ int	ft_nm(void	*ptr, t_info info, char *name)
 			return (-1);
 		bit = 16;
 	}
-	else if (magic ==  FAT_MAGIC || magic == FAT_CIGAM)
+	else if (magic == FAT_MAGIC || magic == FAT_CIGAM)
 	{
 		handle_fat(ptr, info, name);
 		return (0);
 	}
-	print = info.print;
 	print_nm(info.print, name, bit);
+	free_info(info);
 	return (0);
 }
 
 char	*read_file(char *arg, int *len)
 {
-	int fd;
-	void *ptr;
+	int			fd;
+	void		*ptr;
 	struct stat buf;
 
 	if ((fd = open(arg, O_RDONLY)) < 0)
-		return NULL;
+		return (NULL);
 	if ((fstat(fd, &buf)) < 0)
-		return NULL;
-	if ((ptr = mmap(0, buf.st_size, PROT_READ, MAP_PRIVATE, fd, 0)) == MAP_FAILED)
-		return NULL;
+		return (NULL);
+	if ((ptr = mmap(0, buf.st_size, PROT_READ, MAP_PRIVATE,\
+		fd, 0)) == MAP_FAILED)
+		return (NULL);
 	*len = buf.st_size;
-	return ptr;
+	return (ptr);
 }
 
 t_info	init_struct(int len)
@@ -58,47 +69,46 @@ t_info	init_struct(int len)
 	return (info);
 }
 
-int	parse_one(char *name)
+int		parse_one(char *name)
 {
 	t_info	info;
 	void	*ptr;
-	int	len;
+	int		len;
 
 	if (!(ptr = read_file(name, &len)))
 	{
-		printf("ERROR FILE\n");
+		ft_putstr("ERROR FILE\n");
 		return (-1);
 	}
 	info = init_struct(len);
 	ft_nm(ptr, info, NULL);
+	munmap(ptr, len);
 	return (0);
 }
 
-int main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
-	void	*ptr;
-	int	i;
-	t_info	info;
-	int	len;
+	void		*ptr;
+	int			i;
+	t_info		info;
+	int			len;
 
-	if (argc == 1)
-		parse_one("a.out");
-	else if (argc == 2)
-		parse_one(argv[1]);
-	else
+	(argc == 1) ? parse_one("a.out") : 0;
+	(argc == 2) ? parse_one(argv[1]) : 0;
+	if (argc > 2)
 	{
-		i = 1;
-		while (i <= argc - 1)
+		i = 0;
+		while (++i <= argc - 1)
 		{
 			if (!(ptr = read_file(argv[i], &len)))
-				printf("ERROR FILE\n");
+				ft_putstr("ERROR FILE\n");
 			else
 			{
 				info = init_struct(len);
 				if (ft_nm(ptr, info, argv[i]) == -1)
-					return (0);
+					free_map(ptr, len);
+				munmap(ptr, len);
 			}
-			i++;
 		}
 	}
 	return (0);
