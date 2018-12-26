@@ -6,7 +6,7 @@
 /*   By: kahantar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/24 16:35:01 by kahantar          #+#    #+#             */
-/*   Updated: 2018/12/24 16:37:46 by kahantar         ###   ########.fr       */
+/*   Updated: 2018/12/26 16:09:09 by kahantar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,13 +69,14 @@ int		name_sect_32(void *ptr, t_info *info)
 	while (i < header->ncmds)
 	{
 		if (lc->cmd == LC_SEGMENT)
-		{
-			if (parse_segment(lc, info) == -1)
+			if ((parse_segment(lc, info)))
 				return (-1);
-		}
-		lc = (void*)lc + lc->cmdsize;
+		if ((lc = incrementing((void*)lc, info, lc->cmdsize,\
+				sizeof(lc))) == NULL)
+			return (-1);
 		i++;
 	}
+	info->start = 0;
 	s = (t_sec*)info->section;
 	return (0);
 }

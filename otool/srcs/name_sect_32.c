@@ -6,7 +6,7 @@
 /*   By: kahantar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/24 18:42:20 by kahantar          #+#    #+#             */
-/*   Updated: 2018/12/25 12:56:00 by kahantar         ###   ########.fr       */
+/*   Updated: 2018/12/26 10:44:15 by kahantar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,12 @@ void	parse_section_32(struct section *section, t_info *info, char *ptr)
 	{
 		if (y == 0)
 		{
-			ft_itoa_base(addr, 16, 1);
+			ft_itoa_base(addr, 8, 0);
 			ft_putchar('\t');
 		}
-		ft_itoa_base((unsigned char)str[i], 0, 0);
+		ft_itoa_base((unsigned char)str[i], 0, 1);
 		ft_putchar(' ');
-		if (++y == 16 || i == section->size)
+		if (++y == 16 || i == section->size - 1)
 		{
 			y = 0;
 			ft_putchar('\n');
@@ -80,7 +80,7 @@ int		name_sect_32(void *ptr, t_info *info)
 		return (-1);
 	while (i < header->ncmds)
 	{
-		if (lc->cmd == LC_SEGMENT_64)
+		if (lc->cmd == LC_SEGMENT)
 		{
 			if (parse_segment_32(lc, info, ptr) == -1)
 				return (-1);

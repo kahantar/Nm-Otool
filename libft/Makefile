@@ -6,7 +6,7 @@
 #    By: kahantar <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/01/19 10:49:19 by kahantar          #+#    #+#              #
-#    Updated: 2017/03/30 10:56:23 by kahantar         ###   ########.fr        #
+#    Updated: 2018/12/26 09:20:09 by kahantar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -53,12 +53,12 @@ SRCS = 	ft_strdup.c \
 		ft_putchar.c \
 		ft_strsplit.c \
 		ft_putstr.c \
-		ft_putendl.c \
 		ft_putnbr.c \
+		ft_putendl.c \
 		ft_putchar_fd.c \
 		ft_putendl_fd.c \
-		ft_putnbr_fd.c \
 		ft_putstr_fd.c \
+		ft_putnbr_fd.c \
 		ft_itoa.c \
 		ft_memmove.c \
 		ft_strlcat.c \

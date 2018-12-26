@@ -5,38 +5,43 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: kahantar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/24 16:38:06 by kahantar          #+#    #+#             */
-/*   Updated: 2018/12/24 16:42:20 by kahantar         ###   ########.fr       */
+/*   Created: 2018/12/24 18:46:36 by kahantar          #+#    #+#             */
+/*   Updated: 2018/12/26 16:44:56 by kahantar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/nm.h"
+#include "../include/otool.h"
 
-int		parse_section_64(struct section_64 *section, t_info *info)
+void	parse_section_64(struct section_64 *section, t_info *info, char *ptr)
 {
-	t_sec	*info_section;
-	t_sec	*sect;
+	int		i;
+	int		y;
+	size_t	addr;
+	char	*str;
 
-	sect = (t_sec*)info->section;
-	if (!(info_section = malloc(sizeof(t_sec))))
-		return (-1);
-	info_section->str = section->sectname;
-	info_section->next = NULL;
-	if (sect == NULL)
+	addr = section->addr;
+	str = ptr + section->offset;
+	i = -1;
+	y = 0;
+	while (++i < section->size)
 	{
-		sect = (t_sec*)info_section;
-		info->section = (struct s_section*)sect;
+		if (y == 0)
+		{
+			ft_itoa_base(addr, 16, 0);
+			ft_putchar('\t');
+		}
+		ft_itoa_base((unsigned char)str[i], 0, 1);
+		ft_putchar(' ');
+		if (++y == 16 || i == section->size - 1)
+		{
+			y = 0;
+			ft_putchar('\n');
+			addr = addr + 16;
+		}
 	}
-	else
-	{
-		while (sect->next)
-			sect = sect->next;
-		sect->next = info_section;
-	}
-	return (0);
 }
 
-int		parse_segment_64(void *lc, t_info *info)
+int		parse_segment_64(void *lc, t_info *info, void *ptr)
 {
 	struct segment_command_64	*segment;
 	struct section_64			*section;
@@ -49,8 +54,12 @@ int		parse_segment_64(void *lc, t_info *info)
 		return (-1);
 	while (i < segment->nsects)
 	{
-		if (parse_section_64(section, info) == -1)
-			return (-1);
+		if (ft_strcmp(section->sectname, "__text") == 0 &&\
+			ft_strcmp(section->segname, "__TEXT") == 0)
+		{
+			ft_putstr("Contents of (__TEXT,__text) section\n");
+			parse_section_64(section, info, ptr);
+		}
 		if ((section = incrementing((void*)section, info,\
 				sizeof(*section), sizeof(section))) == NULL)
 			return (-1);
@@ -73,14 +82,13 @@ int		name_sect_64(void *ptr, t_info *info)
 	{
 		if (lc->cmd == LC_SEGMENT_64)
 		{
-			if (parse_segment_64(lc, info) == -1)
+			if (parse_segment_64(lc, info, ptr) == -1)
 				return (-1);
 		}
-		if ((lc = incrementing((void*)lc, info, lc->cmdsize,\
-			sizeof(lc))) == NULL)
+		if ((lc = incrementing((void*)lc, info,\
+				lc->cmdsize, sizeof(lc))) == NULL)
 			return (-1);
 		i++;
 	}
-	info->start = 0;
 	return (0);
 }

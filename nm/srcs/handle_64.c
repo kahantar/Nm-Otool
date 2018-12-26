@@ -6,7 +6,7 @@
 /*   By: kahantar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/24 13:23:22 by kahantar          #+#    #+#             */
-/*   Updated: 2018/12/25 10:45:46 by kahantar         ###   ########.fr       */
+/*   Updated: 2018/12/26 16:09:10 by kahantar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ int		handle_64(void *ptr, t_info *info)
 	int						start;
 
 	header = (struct mach_header_64*)ptr;
+	info->start = 0;
 	if ((lc = incrementing(ptr, info, sizeof(*header), sizeof(lc))) == NULL)
 		return (-1);
 	i = 0;
